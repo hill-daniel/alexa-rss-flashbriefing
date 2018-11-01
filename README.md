@@ -6,6 +6,7 @@ Take a look at the blog post: [RSS Feed mit Alexa Flash Briefing ausliefern](htt
 
 ## Usage
 The deploy.sh script will test, build and deploy the skill. Feel free to adapt variables to your needs.
+Requires [AWS CLI](https://aws.amazon.com/de/cli/).
 
 ## Environment Variables
 The following env var is set by terraform upon creation:
