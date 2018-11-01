@@ -1,0 +1,856 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" media="screen" href="/~d/styles/rss2germanfull.xsl"?><?xml-stylesheet type="text/css" media="screen" href="http://feeds.feedburner.com/~d/styles/itemcontent.css"?><rss xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:wfw="http://wellformedweb.org/CommentAPI/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" xmlns:slash="http://purl.org/rss/1.0/modules/slash/" xmlns:feedburner="http://rssnamespace.org/feedburner/ext/1.0" version="2.0">
+
+  <channel>
+    <title>codecentric AG Blog</title>
+
+    <link>https://blog.codecentric.de</link>
+    <description>Expertenwissen rund um agile Softwareentwicklung, Java und Performance Solutions.</description>
+    <lastBuildDate>Tue, 02 Oct 2018 10:27:23 +0000</lastBuildDate>
+    <language>de-DE</language>
+    <sy:updatePeriod>hourly</sy:updatePeriod>
+    <sy:updateFrequency>1</sy:updateFrequency>
+    <generator>https://wordpress.org/?v=4.9.8</generator>
+    <atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" rel="self" type="application/rss+xml" href="http://feeds.feedburner.com/CodecentricBlog" /><feedburner:info uri="codecentricblog" /><atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" rel="hub" href="http://pubsubhubbub.appspot.com/" /><feedburner:feedFlare href="http://add.my.yahoo.com/content?lg=de&amp;url=http%3A%2F%2Ffeeds.feedburner.com%2FCodecentricBlog" src="http://us.i1.yimg.com/us.yimg.com/i/de/my/addtomyyahoo4.gif">Subscribe with Mein Yahoo!</feedburner:feedFlare><feedburner:feedFlare href="http://feedly.com/#subscription/feed/http://feeds.feedburner.com/CodecentricBlog" src="http://s3.feedly.com/feedburner/feedly.png">Subscribe with Feedly</feedburner:feedFlare><feedburner:feedFlare href="https://www.subtome.com/#/subscribe?feeds=http%3A%2F%2Ffeeds.feedburner.com%2FCodecentricBlog" src="http://www.subtome.com/subtome-feedburner.png">Subscribe with SubToMe</feedburner:feedFlare><feedburner:feedFlare href="http://www.bloglines.com/sub/http://feeds.feedburner.com/CodecentricBlog" src="http://www.bloglines.com/images/sub_modern11.gif">Subscribe with Bloglines</feedburner:feedFlare><feedburner:feedFlare href="http://www.netvibes.com/subscribe.php?url=http%3A%2F%2Ffeeds.feedburner.com%2FCodecentricBlog" src="//www.netvibes.com/img/add2netvibes.gif">Subscribe with Netvibes</feedburner:feedFlare><feedburner:feedFlare href="http://www.bitty.com/manual/?contenttype=rssfeed&amp;contentvalue=http%3A%2F%2Ffeeds.feedburner.com%2FCodecentricBlog" src="http://www.bitty.com/img/bittychicklet_91x17.gif">Subscribe with Bitty Browser</feedburner:feedFlare><feedburner:feedFlare href="http://www.dailyrotation.com/index.php?feed=http%3A%2F%2Ffeeds.feedburner.com%2FCodecentricBlog" src="http://www.dailyrotation.com/rss-dr2.gif">Subscribe with Daily Rotation</feedburner:feedFlare><item>
+    <title>Application Lifecycle Intelligence: Analyse von Wertschöpfung in Entwicklungsprozessen</title>
+    <link>http://feedproxy.google.com/~r/CodecentricBlog/~3/4eL6TuQHvVs/</link>
+    <comments>https://blog.codecentric.de/2018/09/application-lifecycle-intelligence-analyse-von-wertschoepfung-in-entwicklungsprozessen/#respond</comments>
+    <pubDate>Wed, 26 Sep 2018 06:00:56 +0000</pubDate>
+    <dc:creator><![CDATA[Daniel Kocot]]></dc:creator>
+    <category><![CDATA[Agile Management]]></category>
+    <category><![CDATA[Agilität]]></category>
+    <category><![CDATA[Allgemein]]></category>
+    <category><![CDATA[Continuous Delivery]]></category>
+    <category><![CDATA[Application Lifecycle Intelligence]]></category>
+    <category><![CDATA[bi]]></category>
+    <category><![CDATA[business intelligence]]></category>
+
+    <guid isPermaLink="false">https://blog.codecentric.de/?p=56032</guid>
+    <description><![CDATA[<p>Wenn wir uns mit agiler Softwareentwicklung beschäftigen, sprechen wir grundsätzlich auch über Application Lifecycle Management (ALM). Ebenso treibt das Business, das hinter allen Anforderungen für die Entwicklung von Software steht, immer die Frage nach Wertschöpfung um. Damit wir euch Antworten auf eure Fragen geben können, müssen wir die Werte von ALM mit den Methodiken von... <a class="view-article" href="https://blog.codecentric.de/2018/09/application-lifecycle-intelligence-analyse-von-wertschoepfung-in-entwicklungsprozessen/">Weiterlesen</a></p>
+<p>Der Beitrag <a rel="nofollow" href="https://blog.codecentric.de/2018/09/application-lifecycle-intelligence-analyse-von-wertschoepfung-in-entwicklungsprozessen/">Application Lifecycle Intelligence: Analyse von Wertschöpfung in Entwicklungsprozessen</a> erschien zuerst auf <a rel="nofollow" href="https://blog.codecentric.de">codecentric AG Blog</a>.</p>
+]]></description>
+    <content:encoded><![CDATA[<p>Wenn wir uns mit agiler Softwareentwicklung beschäftigen, sprechen wir grundsätzlich auch über Application Lifecycle Management (<em>ALM</em>). Ebenso treibt das Business, das hinter allen Anforderungen für die Entwicklung von Software steht, immer die Frage nach Wertschöpfung um. Damit wir euch Antworten auf eure Fragen geben können, müssen wir die Werte von ALM mit den Methodiken von Business Intelligence (<em>BI</em>) in Einklang bringen. Und genau aus diesem Aspekt möchte ich mich in diesem Post theoretisch mit der Wortschöpfung „<em>Application Lifecycle Intelligence</em>“ auseinandersetzen.</p>
+<h2>Was verbirgt sich hinter dem Begriff <em>Business Intelligence?</em></h2>
+<p>Laut dem Gabler Wirtschaftslexikon ist BI ein „<em>Sammelbegriff für den IT-gestützten Zugriff auf Informationen, sowie die IT-gestützte Analyse und Aufbereitung dieser Informationen. Ziel dieses Prozesses ist es, aus dem im Unternehmen vorhandenen Wissen neues Wissen zu generieren. Bei diesem neu gewonnenen Wissen soll es sich um relevantes, handlungsorientiertes Wissen handeln, das Managemententscheidungen zur Steuerung des Unternehmens unterstützt.</em>“</p>
+<p>Um nun Methodiken von BI anwenden zu können, benötigen wir noch Metriken. Eine Metrik ist, laut IEEE Standard 612.10, <em>ein quantitatives Maß für den Grad, zu dem ein System, eine Komponente oder ein Prozess ein bestimmtes Attribut besitzt.</em></p>
+<p>Aus den Metriken werden dann mit der Zeit und im Lauf eines Prozesses die Key Performance Indicators (<em>KPIs</em>). Diese geben an, was wichtig für das Team und den Business Case ist. Ebenso dienen sie auch als Grundlage für Trendberechnungen.</p>
+<h2>Ist Agilität messbar?</h2>
+<p>Wir bewegen uns ja in einem agilen Umfeld. Genau dieser Umstand stellt aber auch die größte Hürde bei der Messbarkeit dar. Nach den agilen Prinzipien ist die funktionierende Software die primäre Messgröße. Es ergeben sich aber auch sprachliche Schwierigkeiten, bezogen auf das Verständnis von Messbarkeit im Team. In der Regel treffen wir dort auf drei Typen: die Entwickler, den Product Owner (<em>PO</em>) und meist auch noch zusätzlich auf einen Projektmanager (<em>PM</em>). Alle drei haben ein grundlegend anderes Verständnis bezogen auf den Satz „Das Projekt läuft gut“. Die Entwickler verstehen darunter, dass die Softwarelösung gut durchdacht und entwickelt wurde. Für den PO wurden alle Features eines Sprints ausgeliefert. Und der PM ist der Ansicht, dass das Projekt gut in der Zeit und im Budget liegt.</p>
+<p>Eine weitere Herausforderung der Agilität bezogen auf die Messbarkeit ist die Fokussierung auf ein Produkt und nicht auf Projekt. Die Idee von Agilität besteht ja darin ein funktionierendes Produkt auszuliefern und nicht ein Projekt abzuschließen. In der Regel vermischen sich im Projektalltag genau diese Sichtweisen, da das Projektmanagement grundsätzlich zahlengetrieben funktioniert.</p>
+<h2>Daten des Software Development Life Cycle</h2>
+<p>Wenn wir nun den Software Development Life Cycle (<em>SDLC</em>) betrachten, sind die Daten über einzelne Tools verteilt. Eine einheitliche Sicht wird dadurch erschwert. Bei den Tools der Firma Atlasssian gibt es durch die vorhandene Integrationsmöglichkeit der einzelnen ein erster Ansatz, der aber mit Sicht auf die Daten und deren Lage eher rudimentär ist. Wir wollen uns nun mit den folgenden genannten Systemen, aber ohne die Nennung eines konkreten Produkts, beschäftigen:</p>
+<p><a href="https://blog.codecentric.de/files/2018/09/ali_systemlandschaft.png"><img class="alignnone wp-image-56035" src="https://blog.codecentric.de/files/2018/09/ali_systemlandschaft-250x147.png" alt="Application Lifecycle Intelligence - Agile Entwicklungssystemlandschaft" width="300" height="176" srcset="https://blog.codecentric.de/files/2018/09/ali_systemlandschaft-250x147.png 250w, https://blog.codecentric.de/files/2018/09/ali_systemlandschaft-768x451.png 768w, https://blog.codecentric.de/files/2018/09/ali_systemlandschaft-700x411.png 700w, https://blog.codecentric.de/files/2018/09/ali_systemlandschaft-120x71.png 120w" sizes="(max-width: 300px) 100vw, 300px" /></a></p>
+<p>Diese einzelnen Systeme beantworten unterschiedliche Fragestellungen.</p>
+<p><a href="https://blog.codecentric.de/files/2018/09/fragen_einfache_datenlagen.png"><img class="alignnone wp-image-56038" src="https://blog.codecentric.de/files/2018/09/fragen_einfache_datenlagen-250x149.png" alt="Application Lifecycle Intelligence - Fragen einfacher Datenlagen" width="301" height="179" srcset="https://blog.codecentric.de/files/2018/09/fragen_einfache_datenlagen-250x149.png 250w, https://blog.codecentric.de/files/2018/09/fragen_einfache_datenlagen-768x457.png 768w, https://blog.codecentric.de/files/2018/09/fragen_einfache_datenlagen-700x417.png 700w, https://blog.codecentric.de/files/2018/09/fragen_einfache_datenlagen-120x71.png 120w" sizes="(max-width: 301px) 100vw, 301px" /></a></p>
+<p>Die Fragen, die sich aus den jeweiligen Datenlagen ergeben, sind somit sehr kleinteilig. Wenn wir nun Datenlagen zusammenfassen, bekommen wir ein größeres Bild und können auch detailliertere Fragen stellen.</p>
+<p><a href="https://blog.codecentric.de/files/2018/09/fragen_kombinierte_datenlagen.png"><img class="alignnone wp-image-56039" src="https://blog.codecentric.de/files/2018/09/fragen_kombinierte_datenlagen-250x148.png" alt="Application Lifecycle Intelligence - Fragen kombinierter Datenlagen" width="300" height="178" srcset="https://blog.codecentric.de/files/2018/09/fragen_kombinierte_datenlagen-250x148.png 250w, https://blog.codecentric.de/files/2018/09/fragen_kombinierte_datenlagen-768x456.png 768w, https://blog.codecentric.de/files/2018/09/fragen_kombinierte_datenlagen-700x416.png 700w, https://blog.codecentric.de/files/2018/09/fragen_kombinierte_datenlagen-120x71.png 120w" sizes="(max-width: 300px) 100vw, 300px" /></a></p>
+<p>Für weitere und zugleich noch gezieltere Fragestellungen müssen wir die jeweiligen Datenlagen noch mehr miteinander in Verbindung bringen. Hierzu kann eine Mindmap zur Visualisierung der Zusammenhänge eine konkrete Hilfe sein.</p>
+<p><a href="https://blog.codecentric.de/files/2018/09/mindmap-2.png"><img class="alignnone wp-image-56227" src="https://blog.codecentric.de/files/2018/09/mindmap-2-250x114.png" alt="Application Lifecycle Intelligence - Fragestellung per Mindmap" width="300" height="137" srcset="https://blog.codecentric.de/files/2018/09/mindmap-2-250x114.png 250w, https://blog.codecentric.de/files/2018/09/mindmap-2-768x351.png 768w, https://blog.codecentric.de/files/2018/09/mindmap-2-700x320.png 700w, https://blog.codecentric.de/files/2018/09/mindmap-2-120x55.png 120w" sizes="(max-width: 300px) 100vw, 300px" /></a></p>
+<p>Nachdem wir uns Gedanken zu möglichen Fragestellungen gemacht haben, ist es nun an der Zeit, dass wir versuchen an die konkreten Daten aus den beteiligten Systemen zu gelangen. In der heutigen Zeit haben Systeme, die sich mit Themen des SDLC bzw. ALM beschäftigen eine gut dokumentierte Rest-API. Genau über diese APIs bekommen wir nun die Informationen, die wir für das weitere Vorgehen benötigen.</p>
+<p>Aber welche Daten bekommen wir von den Systemen geliefert?</p>
+<table>
+<thead>
+<tr>
+<th>System</th>
+<th>Datenlagen</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>PVS</td>
+<td>
+<ul>
+<li>Was?</li>
+<li>Wann?</li>
+<li>Wer?</li>
+<li>Rohdaten müssen mit detailierten Informationen angereicht werden</li>
+<li><em>Definition of Done</em> sollte klar und deutlich definiert sein</li>
+</ul>
+</td>
+</tr>
+<tr>
+<td>VKS</td>
+<td>
+<ul>
+<li>Wer verändert den Sourcecode?</li>
+<li>Wer ünterstützt hier wen?</li>
+<li>Das Verhältnis von Pull Requests, Commits und Kommentaren</li>
+<li>Abgelehnte Pull Requests gegenüber zusammengeführten Pull Requests</li>
+</ul>
+</td>
+</tr>
+<tr>
+<td>CI/CD</td>
+<td>
+<ul>
+<li>Wie diszipliniert arbeitet das Team?</li>
+<li>Wie häufig wird ausgeliefert?</li>
+<li>Wie gut ist die Code-Qualität</li>
+<li>Wie ist das Verhältnis von erfolgreichen und fehlgeschlagenen Builds?</li>
+<li>Was sagen die Test Reports?</li>
+<li>Welche Werte liefert die Code Coverage?</li>
+</ul>
+</td>
+</tr>
+<tr>
+<td>AM</td>
+<td>
+<ul>
+<li>Statistiken zum Zustand der Applikation zeigen wie gut diese gebaut ist</li>
+<li>Willkürliche Werte und semantisches Logging dienen dazu, zu erfahren, wie eine Applikation wirklich genutzt wird</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+<h2>Aus Daten werden Metriken</h2>
+<p>Nachdem wir die Datenlagen der einzelnen Systeme betrachtet haben, können wir nun erste einfache Metriken zusammenfügen.</p>
+<p><a href="https://blog.codecentric.de/files/2018/09/einfache_metriken.png"><img class="alignnone wp-image-56037" src="https://blog.codecentric.de/files/2018/09/einfache_metriken-250x147.png" alt="Application Lifecycle Intelligence - Einfache Metriken" width="300" height="177" srcset="https://blog.codecentric.de/files/2018/09/einfache_metriken-250x147.png 250w, https://blog.codecentric.de/files/2018/09/einfache_metriken-768x453.png 768w, https://blog.codecentric.de/files/2018/09/einfache_metriken-700x413.png 700w, https://blog.codecentric.de/files/2018/09/einfache_metriken-120x71.png 120w" sizes="(max-width: 300px) 100vw, 300px" /></a></p>
+<p>Sobald wir die Bedeutung der einzelnen Werte verstanden haben, werden wir in die Lage versetzt komplexere Metriken durch Kombination dieser Werte und auch durch Hinzunahme weiterer Datenlagen zu entwerfen. Doch dazu müssen die neu geschaffenen Daten erst in eine normalisierte Form gebracht werden. Auch hier können Mindmaps den Herleitungsprozess unterstützen.</p>
+<p>Es ist aber zu beachten, dass jegliche Änderung von Prozessen auch eine Anpassung der Metriken erfordert. Somit gelangen wir auch auf der Ebene der Daten und Metriken in einen kontinuierlichen Prozess.</p>
+<p><a href="https://blog.codecentric.de/files/2018/09/cd_data_and_metrics.png"><img class="alignnone wp-image-56036" src="https://blog.codecentric.de/files/2018/09/cd_data_and_metrics-250x167.png" alt="Application Lifecycle Intelligence - Kontinuierlicher Entwicklungsprozess einer Metrik" width="300" height="200" srcset="https://blog.codecentric.de/files/2018/09/cd_data_and_metrics-250x167.png 250w, https://blog.codecentric.de/files/2018/09/cd_data_and_metrics-768x512.png 768w, https://blog.codecentric.de/files/2018/09/cd_data_and_metrics-700x467.png 700w, https://blog.codecentric.de/files/2018/09/cd_data_and_metrics-120x80.png 120w, https://blog.codecentric.de/files/2018/09/cd_data_and_metrics.png 999w" sizes="(max-width: 300px) 100vw, 300px" /></a></p>
+<p>Nun wollen wir uns einmal eine komplexe Metrik überlegen. Aufgrund der Tatsache, dass wir uns in einem kontinuierlichem Entwicklungsprozess befinden, möchten wir nun wissen, wie sich die Qualität der Releases in der fortlaufenden Entwicklung verändert. Zu aller erst bekommt unsere neue Metrik einen aussagekräftigen Namen, „<strong>Kontinuierliche Releasequalitätsbewertung</strong>“ (<em>KRQB</em>). Nun schauen wir unsere bekannten Metriken an und entscheiden uns für die <strong>Rückfälligskeitsquote</strong> (<em>RFQ</em>). Des Weiteren interessieren wir uns für die <strong>Anzahl der veränderten Zeilen Sourcecode</strong> (<em>VZS</em>). Die dritte Größe, die wir benötigen, ist der sogenannte <strong>Gesundheitsfaktor der Schätzungen</strong> (<em>GFS</em>). Dieser stellt in normalisierter Form die Genauigkeit aller Schätzungen dar. Der letzte Wert, der unser Interesse für die Erstellung weckt sind die <strong>entgangenen Fehler</strong> (<em>EF</em>). Bei den entgangenen Fehlern handelt es sich um die Fehler, die nicht während des Testens, sondern erst in der Produktion, aufgefallen sind.</p>
+<p><a href="https://blog.codecentric.de/files/2018/09/krqb.png"><img class="alignnone wp-image-56040" src="https://blog.codecentric.de/files/2018/09/krqb-250x110.png" alt="Application Lifecycle Intelligence - Berechnung KRQB" width="300" height="132" srcset="https://blog.codecentric.de/files/2018/09/krqb-250x110.png 250w, https://blog.codecentric.de/files/2018/09/krqb-768x338.png 768w, https://blog.codecentric.de/files/2018/09/krqb-700x308.png 700w, https://blog.codecentric.de/files/2018/09/krqb-120x53.png 120w" sizes="(max-width: 300px) 100vw, 300px" /></a></p>
+<p>Nachdem wir Metriken, einfach oder komplex, erstellt haben, stehen wir vor der Herausforderung diese innerhalb einer Organisation zu veröffentlichen. Hierbei müssen wir als erstes klären, für wen wir die Informationen zur Verfügung stellen wollen. Denn diese Personen müssen auf Grundlage der Metriken handeln können, somit erzeugen wir auch die entsprechenden KPIs.</p>
+<p>Wenn wir nun die Personen in drei verschiedene Publikumsebenen zusammenfassen, ergibt sich die folgende Übersicht.</p>
+<table>
+<thead>
+<tr>
+<th>Ebene</th>
+<th>Metriken</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Team</td>
+<td>
+<ul>
+<li>Verhältnis von Pull Requests und Commits</li>
+<li>Verhältnis von Aufgabenablaufquote und Rückfälligkeitsquote</li>
+<li>Verhältnis von erfolgreichen und fehlgeschlagenen Buildvorgängen</li>
+<li>Kundenorientierte Qualitätsbewertung</li>
+</ul>
+</td>
+</tr>
+<tr>
+<td>Manager</td>
+<td>
+<ul>
+<li>Durchlaufzeit</li>
+<li>Entwicklungsgeschwindigkeit</li>
+<li>Gesundsfaktor der Schätzungen</li>
+<li>Verhältnis von Pull Requests und Commits über die Zeit</li>
+<li>Kundenorientierte Qualitätsbewertung über die Zeit</li>
+</ul>
+</td>
+</tr>
+<tr>
+<td>Executive</td>
+<td>
+<ul>
+<li>Verhältnis der Anzahl der Releases und Features pro Release</li>
+<li>Kundenorientierte Qualitätsbewertung über die Zeit</li>
+<li>Entwicklungskosten</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+<p>In der Übersicht taucht mit „<strong>kundenorientierte Qualitätsbewertung</strong>“ eine Metrik auf, die wir bisher nicht betrachtet haben. Die Daten hierfür bekommen wir über Kundenbefragungen bzw. -bewertungen und diese müssen wir dann nur normalisieren. Um die jeweiligen Interessengruppen nicht mit Zahlenkolonnen zu erschlagen, sollten wir uns über die Art die Visualisierung Gedanken machen. Wenn wir uns dem Begriff „Business Intelligence“ wieder zuwenden, stossen wir auf sogenannte Dashboards. Diese sorgen dafür, dass die entstandenen KPIs eine ansprechende Darstellung zur schnellen Verwendbarkeit erhalten.</p>
+<p>Ich hoffe, dass euch dieser Blogpost einen ersten Einblick in die Analyse von Wertströmen innerhalb von Entwicklungsprozessen gegeben hat. In einem nachfolgendem Blogpost werde ich mit Unterstützung der Statistikumgebung <em>R</em> und einiger Bibliotheken eine Umsetzung eines Application Lifecycle Intelligence Dashboard darstellen.</p>
+<p>Der Beitrag <a rel="nofollow" href="https://blog.codecentric.de/2018/09/application-lifecycle-intelligence-analyse-von-wertschoepfung-in-entwicklungsprozessen/">Application Lifecycle Intelligence: Analyse von Wertschöpfung in Entwicklungsprozessen</a> erschien zuerst auf <a rel="nofollow" href="https://blog.codecentric.de">codecentric AG Blog</a>.</p>
+<img src="http://feeds.feedburner.com/~r/CodecentricBlog/~4/4eL6TuQHvVs" height="1" width="1" alt=""/>]]></content:encoded>
+    <wfw:commentRss>https://blog.codecentric.de/2018/09/application-lifecycle-intelligence-analyse-von-wertschoepfung-in-entwicklungsprozessen/feed/</wfw:commentRss>
+    <slash:comments>0</slash:comments>
+    <feedburner:origLink>https://blog.codecentric.de/2018/09/application-lifecycle-intelligence-analyse-von-wertschoepfung-in-entwicklungsprozessen/</feedburner:origLink></item>
+    <item>
+      <title>Kotlin-Leckerbissen, die dem Entwickler das Leben erleichtern</title>
+      <link>http://feedproxy.google.com/~r/CodecentricBlog/~3/DNJSdsYPL08/</link>
+      <comments>https://blog.codecentric.de/2018/09/kotlin-standard-library-funktionen-zur-verbesserung-der-code-qualitaet/#respond</comments>
+      <pubDate>Thu, 20 Sep 2018 04:05:18 +0000</pubDate>
+      <dc:creator><![CDATA[Peter-Josef Meisch]]></dc:creator>
+      <category><![CDATA[Kotlin]]></category>
+
+      <guid isPermaLink="false">https://blog.codecentric.de/?p=55974</guid>
+      <description><![CDATA[<p>In diesem Beitrag möchte ich einige Features von Kotlin vorstellen, die es ermöglichen, kurzen und präzisen Code zu schreiben. Zum einen sind dies Funktionen der Kotlin-Standard-Bibliothek, zum anderen eigene Funktionen, welche Eigenschaften der Sprache Kotlin verwenden wie zum Beispiel Extension Functions und Lambda-Argumente. Ich gehe nicht im Detail darauf ein, was Extension Functions sind oder... <a class="view-article" href="https://blog.codecentric.de/2018/09/kotlin-standard-library-funktionen-zur-verbesserung-der-code-qualitaet/">Weiterlesen</a></p>
+<p>Der Beitrag <a rel="nofollow" href="https://blog.codecentric.de/2018/09/kotlin-standard-library-funktionen-zur-verbesserung-der-code-qualitaet/">Kotlin-Leckerbissen, die dem Entwickler das Leben erleichtern</a> erschien zuerst auf <a rel="nofollow" href="https://blog.codecentric.de">codecentric AG Blog</a>.</p>
+]]></description>
+      <content:encoded><![CDATA[<p>In diesem Beitrag möchte ich einige Features von Kotlin vorstellen, die es ermöglichen, kurzen und präzisen Code zu schreiben. Zum einen sind dies Funktionen der Kotlin-Standard-Bibliothek, zum anderen eigene Funktionen, welche Eigenschaften der Sprache Kotlin verwenden wie zum Beispiel Extension Functions und Lambda-Argumente.</p>
+<p>Ich gehe nicht im Detail darauf ein, was Extension Functions sind oder auf spezielle Syntaxaspekte. Hierfür möchte ich auf die hervorragende <a href="http://kotlinlang.org/docs/reference" rel="noopener" target="_blank">Kotlin Documentation verweisen</a>.</p>
+<h2>Funktionen aus der Kotlin-Standard-Bibliothek</h2>
+<p>Im ersten Teil des Artikels möchte ich einige Funktionen der Kotlin-Standard-Bibliothek vorstellen. Es handelt sich hier um eine kleine Auswahl, die ich nützlich finde, und ich möchte den Leser ausdrücklich ermutigen, sich den Quellcode dieser Funktionen anzuschauen und die <a href="http://kotlinlang.org/api/latest/jvm/stdlib/index.html" rel="noopener" target="_blank">Dokumentation</a> zu lesen.</p>
+<h3>Überprüfen von Argumenten</h3>
+<p>Wenn man in seinem Code kein Framework zur Validierung verwendet, ist es oft notwendig, die Gültigkeit von Argumenten zu überprüfen. Im Normalfall wird das dann wie im folgenden Beispiel gemacht:</p>
+<pre>fun someFunction(answer: Int) {
+  if(answer != 42) {
+    throw IllegalArgumentException(&quot;the answer must be 42!&quot;)
+  }
+  // function code
+}</pre>
+<p>Besser ist es, die <code>require</code>-Funktion der Standard-Bibliothek zu verwenden, welche die gleiche Funktionalität bietet, aber weniger Code benötigt:</p>
+<pre>fun someFunction(answer: Int) {
+  require(answer == 42) {&quot; the answer must be 42!&quot;}
+  // function code
+}</pre>
+<h3>Mehrere Werte aus einer Funktion zurückgeben</h3>
+<p>Manchmal ist es nötig, dass eine Funktion zwei Werte zurückgibt. Eine Möglichkeit hierfür ist es, eine neue Klasse anzulegen, die diese Werte enthält. Einfacher ist es, die <code>Pair</code>-Klasse aus Kotlin zu verwenden, zusammen mit der <code>to</code> infix-Funktion und einer destructuring-Variablendeklaration:</p>
+<pre>fun someFunction() : Pair&lt;Int, String&gt; {
+  return 42 to &quot;the answer&quot;
+}
+
+fun main(args: Array&lt;String&gt;) {
+  val (i: Int, s: String) = someFunction()
+  log.info(&quot;$s is $i&quot;) // logs &quot;the answer is 42&quot;
+}</pre>
+<h3>Zeitmessungen</h3>
+<p>Um die Ausführungszeit von Programmteilen zu messen, wird häufig Code in dieser Form verwendet:</p>
+<pre>
+val start = System.currentTimeMillis()
+// do something
+val end = System.currentTimeMillis()
+
+log.info(&quot;duration: ${end - start} msecs&quot;)
+</pre>
+<p>Kotlin bietet hierfür zwei inline-Funktionen, <code>measureTimeMillis</code> und <code>measureNanoTime</code>, die folgendermassen verwendet werden:</p>
+<pre>
+val duration = measureTimeMillis {
+  // do something
+}
+
+log.info(&quot;duration: $duration msecs&quot;)</pre>
+<h3>File IO</h3>
+<p>Die normalen JVM-Bibliotheken bieten keine Funktionen um ein Verzeichnis zu löschen, das nicht leer ist. Hierfür ist es notwendig, die im Verzeichnis liegenden Dateien und Unterverzeichnisse rekursiv zu löschen.<br />
+Kotlin hat für diesen Zweck eine Extension Function:</p>
+<pre>File(&quot;/path/to/some/directory&quot;).deleteRecursively()</pre>
+<p>Falls man den Namen einer Datei ohne die Dateiendung benötigt:</p>
+<pre>
+val f = File(&quot;image.jpg&quot;)
+val name = f.nameWithoutExtension // sets name to &quot;image&quot;
+</pre>
+<p>Eine Datei zeilenweise einlesen und für jede Zeile eine Funktion aufrufen:</p>
+<pre>
+File(&quot;filename&quot;).useLines { line -&gt;
+  println(line)
+}
+</pre>
+<p>Es gibt noch sehr viel mehr nützliche Funktionen im Package <code>kotlin.io</code>, auch hier verweise ich auf die Dokumentation.</p>
+<h3>Nebenläufige Programmierung</h3>
+<h4>Reentrant read write locks</h4>
+<p>Für den Fall, dass man eine Resource absichern möchte, so dass immer nur ein Thread Schreibzugriff hat, aber mehrere Threads Lesezugriff, gibt es in der Java-Runtime die Klasse <code>ReentrantReadWriteLock</code>. Die korrekte Verwendung dieser Klasse ist aber nicht trivial, da auf Interruptions oder Exceptions geachtet werden muss, wenn die entsprechenden Locks belegt und freigegeben werden.</p>
+<p>Kotlin bietet einige Extension-Functions der <code>ReentrantReadWriteLock</code> Klasse an, mit denen die Verwendung sehr vereinfacht wird:</p>
+<pre>val sharedResource = mutableMapOf&lt;String, String&gt;()
+val lock = ReentrantReadWriteLock()
+
+fun readSomeData(key: String) {
+  return lock.read {
+    sharedResource[key]
+  }
+}
+
+fun writeSomeData(key: String, value: String) {
+  lock.write {
+    sharedResource[key] = value
+  }
+}</pre>
+<h4>Threads und ThreadLocal Objekte</h4>
+<p>Wenn man ein <code>ThreadLocal</code>-Objekt verwendet, wird es normalerweise wie folgt initialisiert:</p>
+<pre>class ClassWithThreadState {
+  private val state = object : ThreadLocal&lt;String&gt;() {
+    override fun initialValue(): String = &quot;initialValue&quot;
+  }
+
+  fun someFunction() {
+    var currentState = state.get()
+    log.info { &quot;currentState: $currentState&quot; }
+    state.set(&quot;newState&quot;)
+  }
+}</pre>
+<p>Kotlin fügt der Klasse die Funktion <code>getOrSet</code> hinzu, welche die Initiaisierung einfacher macht:</p>
+<pre>class ClassWithThreadState {
+  private val state = ThreadLocal&lt;String&gt;()
+
+  fun someFunction() {
+    val currentState = state.getOrSet { &quot;initalValue&quot; }
+    log.info { &quot;currentState: $currentState&quot; }
+    state.set(&quot;newState&quot;)
+  }
+}</pre>
+<p>Um Code in einem eigenen Thread auszuführen, muss man ihn in ein <code>Runnable</code> einpacken, welches dann einem <code>Thread</code>-Objekt übergeben wird, das dann wiederum gestartet wird:</p>
+<pre>fun main(args: Array&lt;String&gt;) {
+  val classWithThreadState = ClassWithThreadState()
+  Thread(Runnable { classWithThreadState.someFunction() }).start()
+}</pre>
+<p>Die Kotlin-Bibliothek bietet eine Funktion <code>thread</code>, die das Ganze vereinfacht:</p>
+<pre>fun main(args: Array&lt;String&gt;) {
+  val classWithThreadState = ClassWithThreadState()
+  // imediately start the thread with the runnable
+  thread { classWithThreadState.someFunction() }
+
+  // or first create it and start it later:
+  val t = thread(start = false) { classWithThreadState.someFunction() }
+  t.start()
+}</pre>
+<p>Die <code>thread</code>-Funktion hat neben dem <code>start</code>-Parameter weitere optionale Parameter, die es erlauben, zum Beispiel die Priorität, den Namen oder auch den Daemon-Status des erzeugten Thread zu setzen.</p>
+<h2>Eigene (Extension-)Funktionen</h2>
+<p>Im zweiten Teil diese Artikels möchte ich zeigen, wie leicht es ist, eigene Funktionen zu schreiben, die dazu beitragen, dass der Code präziser, einfacher und besser zu warten wird.</p>
+<p>Die Prinzipien, die ich für diese Funktionen verwende, sind die gleichen, die in der Kotlin-Standard-Bibliothek verwendet werden: Extension-Funktionen und Funktionen, die ein Lambda als letzten Parameter nehmen. Für weitere Informationen zu diesen Techniken verweise ich auf meinen früheren Blogpost <a href="https://blog.codecentric.de/2018/06/kotlin-dsl-apache-kafka/">&#8220; Wie schreibt man eine Kotlin-DSL&#8220;</a>.</p>
+<h3>Slf4j</h3>
+<p>Jeder Entwickler, der <em>slf4j</em> verwendet, kennt den Code um einen <code>Logger</code> zu erzeugen, bei dem der Name der Klasse wiederholt werden muss:</p>
+<pre>class SomeClass {
+  fun doSomething() {
+    log.info(&quot;doing something&quot;)
+  }
+
+  companion object {
+    // always have to repeat the name of the class here:
+    private val log: Logger = LoggerFactory.getLogger(SomeClass::class.java)
+  }
+}</pre>
+<p>Mit einer kleinen Extension-Funktion für die <code>Any</code>-Klasse ist es möglich, einen <em>slf4j</em>-Logger für jede Klasse zu erzeugen, auch wenn der Logger als Property eines companion-Objekt definiert wird:</p>
+<pre>fun Any.logger(): Logger {
+  val clazz = if (this::class.isCompanion) this::class.java.enclosingClass else this::class.java
+  return LoggerFactory.getLogger(clazz)
+}</pre>
+<p>Bei der Verwendung dieser Funktion ist es nicht mehr nötig, die Klasse, für die der Logger erzeugt wird, anzugeben:</p>
+<pre>
+package de.codecentric.kotlingoodies
+import logger
+
+class SomeClass {
+  fun doSomething() {
+    log.info(&quot;doing something&quot;)
+  }
+
+  companion object {
+    // creates a logger with the name &quot;de.codecentric.kotlingoodies.SomeClass&quot;
+    private val log = logger()
+  }
+}</pre>
+<p>Wenn man zum Erstellen in der Log-Message Aufrufe wie String-Templating verwendet, empfiehlt es sich, vorher das Level des Loggers zu prüfen:</p>
+<pre>fun someFunction() {
+  val someObject = Any() // or something else, doesn&#39;t matter here
+
+  try {
+    someObject.doSomething()
+    if(log.isDebugEnabled) {
+      log.debug(&quot;doing something with $someObject&quot;)
+    }
+  } catch (e: Exception) {
+    if(log.isWarnEnabled) {
+      log.warn(&quot;could not do something with $someObject&quot; e)
+    }
+  }
+}</pre>
+<p>Durch ein paar Extension-Funktionen der <code>Logger</code>-Klasse kann dies erheblich vereinfacht werden &#8211; ich zeige hier nur die Funktionen für das <em>debug</em>&#8211; und <em>info</em>-Level:</p>
+<pre>inline fun Logger.info(msg: (() -&gt; String)) {if (isInfoEnabled) info(msg())}
+inline fun Logger.info(t: Throwable, msg: (() -&gt; String)) {if (isInfoEnabled) info(msg(), t)}
+inline fun Logger.debug(msg: (() -&gt; String)) {if (isDebugEnabled) debug(msg())}
+inline fun Logger.debug(t: Throwable, msg: (() -&gt; String)) {if (isDebugEnabled) debug(msg(), t)}
+
+// use it like this:
+fun someFunction() {
+  val someObject = Any() // or something else, doesn&#39;t matter here
+
+  try {
+    someObject.doSomething()
+    log.debug { &quot;doing something with $someObject&quot; }
+  } catch (e: Exception) {
+    log.warn(e) { &quot;could not do something with $someObject&quot; }
+  }
+}</pre>
+<p>Diese Funktionen machen den Code erheblich lesbarer und verhindern auch, dass man das Loglevel für den Aufruf ändert und dabei vergisst, die dazugehörige Abfrage an das neue Level anzupassen.</p>
+<h3>Funktionen, um Boilerplate-Code zu kapseln</h3>
+<p>Es kommt häufig vor, dass im Code immer das Gleiche gemacht wird: zum Beispiel eine Transaktion starten, etwas ausführen, im Erfolgsfall die Transaktion committen und im Fehlerfall ein Rollback durchführen.</p>
+<p>Um das elegant und wiederverwendbar zu schreiben, definiert man eine Funktion – inline und reified um den Rückgabewert zu erhalten – und übergibt dieser Funktion ein Lambda mit dem auszuführenden Code. Hier ein Beispiel mit einer Funktion <em>transactional</em>:</p>
+<pre>inline fun &lt;reified R&gt; transactional(f: () -&gt; R): R {
+    // code to begin transaction
+  return try {
+    f()
+    // code to commit transaction
+  } catch(e: Exception){
+    // code to rollback transaction
+    throw e
+  }
+}</pre>
+<p>Verwendet wird die Funktion dann wie folgt:</p>
+<pre>data class Record(val name: String)
+fun main(args: Array&lt;String&gt;) {
+
+  val records = transactional {
+    // this code is run within a transaction and is probably more complex in a real world scenario
+    listOf(Record(&quot;John&quot;), Record(&quot;James&quot;))
+  }
+
+  records.forEach { println(it) }
+}</pre>
+<h3>Diakritische Zeichen entfernen</h3>
+<p>Kürzlich habe ich eine Funktion benötigt, die aus einem String diaktritische Zeichen (z. B. Akzente) entfernt. Ein erster Ansatz hierfür sieht folgendermassen aus:</p>
+<pre>fun noDiacritics (s: String) : String {
+  val normalized = Normalizer.normalize(this, Normalizer.Form.NFD)
+  val stripped = normalized.replace(&quot;\\p{M}&quot;.toRegex(), &quot;&quot;)
+  return stripped
+}</pre>
+<p>Eleganter und besser ist es, diese Logik in eine Extension-Funktion der <code>String</code>-Klasse zu legen, damit kann sie für jede String-Variable und auch für String-Konstanten aufgerufen werden:</p>
+<pre>
+inline fun String?.noDiacritics() = this?.let{Normalizer.normalize(this, Normalizer.Form.NFD)
+  .replace(&quot;\\p{M}&quot;.toRegex(), &quot;&quot;)}
+
+fun main(args: Array&lt;String&gt;) {
+  println(&quot;Porsche Coupé&quot;.noDiacritics())
+  // output is: Porsche Coupe
+}</pre>
+<h2>Zusammenfassung</h2>
+<p>In diesem Artikel habe ich gezeigt, wie kleine Funktionen – entweder aus der Kotlin-Standard-Bibliothek oder selbst geschrieben – dazu führen können, dass der eigene Code kürzer, besser lesbar und besser wartbar wird.</p>
+<p>Kotlin-Eigenschaften wie Extension-Funktionen, inline- oder infix-Funktionen helfen dabei, solche &#8222;Hilfs&#8220;funktionen zu schreiben.</p>
+<p>Ich kann nur empfehlen, sich den Quellcode der Kotlin-Standard-Bibliothek anzuschauen, man kann hier immer wieder Neues entdecken und lernen.</p>
+<p>Der Beitrag <a rel="nofollow" href="https://blog.codecentric.de/2018/09/kotlin-standard-library-funktionen-zur-verbesserung-der-code-qualitaet/">Kotlin-Leckerbissen, die dem Entwickler das Leben erleichtern</a> erschien zuerst auf <a rel="nofollow" href="https://blog.codecentric.de">codecentric AG Blog</a>.</p>
+<img src="http://feeds.feedburner.com/~r/CodecentricBlog/~4/DNJSdsYPL08" height="1" width="1" alt=""/>]]></content:encoded>
+      <wfw:commentRss>https://blog.codecentric.de/2018/09/kotlin-standard-library-funktionen-zur-verbesserung-der-code-qualitaet/feed/</wfw:commentRss>
+      <slash:comments>0</slash:comments>
+      <feedburner:origLink>https://blog.codecentric.de/2018/09/kotlin-standard-library-funktionen-zur-verbesserung-der-code-qualitaet/</feedburner:origLink></item>
+    <item>
+      <title>Behavior-Driven Development mit JUnit 5</title>
+      <link>http://feedproxy.google.com/~r/CodecentricBlog/~3/7bnfI8eBomE/</link>
+      <comments>https://blog.codecentric.de/2018/09/behavior-driven-development-mit-junit-5/#respond</comments>
+      <pubDate>Tue, 18 Sep 2018 10:00:16 +0000</pubDate>
+      <dc:creator><![CDATA[Benedikt Ritter]]></dc:creator>
+      <category><![CDATA[Java]]></category>
+      <category><![CDATA[Clean Code]]></category>
+      <category><![CDATA[Given When Then]]></category>
+      <category><![CDATA[JUnit 5]]></category>
+      <category><![CDATA[testing]]></category>
+
+      <guid isPermaLink="false">https://blog.codecentric.de/?p=56083</guid>
+      <description><![CDATA[<p>Behavior-Driven Development (BDD) ist ein Ansatz in der Softwareentwicklung, der den Fokus auf das Verhalten eines Systems setzt. Dies wird durch eine entsprechende Strukturierung von Testfällen unterstützt. Häufig kommt dabei der Dreiklang aus Given-When-Then zum Einsatz. Wie mein Kollege Tobias Göschel gezeigt hat, ließ sich diese Struktur bereits mit JUnit 4 verwenden. In diesem Blopost... <a class="view-article" href="https://blog.codecentric.de/2018/09/behavior-driven-development-mit-junit-5/">Weiterlesen</a></p>
+<p>Der Beitrag <a rel="nofollow" href="https://blog.codecentric.de/2018/09/behavior-driven-development-mit-junit-5/">Behavior-Driven Development mit JUnit 5</a> erschien zuerst auf <a rel="nofollow" href="https://blog.codecentric.de">codecentric AG Blog</a>.</p>
+]]></description>
+      <content:encoded><![CDATA[<p><a href="https://de.wikipedia.org/wiki/Behavior_Driven_Development" rel="noopener noreferrer" target="_blank">Behavior-Driven Development (BDD)</a> ist ein Ansatz in der Softwareentwicklung, der den Fokus auf das Verhalten eines Systems setzt. Dies wird durch eine entsprechende Strukturierung von Testfällen unterstützt. Häufig kommt dabei der Dreiklang aus <a href="https://martinfowler.com/bliki/GivenWhenThen.html" rel="noopener noreferrer" target="_blank">Given-When-Then</a> zum Einsatz. Wie mein Kollege Tobias Göschel gezeigt hat, ließ sich <a href="https://blog.codecentric.de/en/2016/01/writing-better-tests-junit/">diese Struktur bereits mit JUnit 4 verwenden</a>. In diesem Blopost werde ich zeigen, wie BDD mithilfe der <code>@Nested</code>-Annotation in JUnit 5 umgesetzt werden kann. Wer noch nicht mit <code>@Nested</code> gearbeitet hat, dem sei mein <a href="https://blog.codecentric.de/2018/09/bessere-junit-5-tests-mit-nested/">Einführungsblogpost zu diesem Thema</a> ans Herz gelegt.</p>
+<h2>Vorüberlegung</h2>
+<p>Als Beispiel für diesen Blogpost möchte ich die <a href="https://docs.oracle.com/javase/10/docs/api/java/util/Stack.html" rel="noopener noreferrer" target="_blank">Stack</a>-Klasse aus der Java-Standardbibliothek verwenden. Stellen wir uns den einfachsten Test für diese Klasse vor: Wenn ein Stack leer ist, dann sollte seine Größe 0 sein. Mit JUnit könnte man das so testen:</p>
+<pre lang="java">
+@Test
+void emptyStackShouldHaveSizeZero() {
+    // given
+    stack.clear();
+
+    // when
+    int size = stack.size();
+
+    // then
+    assertEquals(0, size);
+}
+</pre>
+<p>In klassischen, &#8222;flachen&#8220; JUnit-Tests findet man häuft diese implizite Given-When-Then-Struktur. Besonders in objektorientierten Systemen ergibt sich das ganz natürlich aus der Tatsache, dass die zu testenden Objekte zunächst in den richtigen Zustand versetzt werden müssen (Given), danach wird eine Aktion ausgeführt (When) und schließlich wird das Ergebnis dieser Aktion überprüft (Then). </p>
+<p>Wenn wir mehrere Tests mit einem leeren Stack machen wollen, müssen wir jeweils das Given in den Testmethoden wiederholen. Alternativ können wir das Herstellen eines leeren Stacks in eine Setup-Methode auslagern. Dieser Ansatz funktioniert allerdings nur so lange, bis wir den ersten Test mit einem gefüllten Stack schreiben wollen. Von da an müssen wir für alle Tests mit gefülltem Stack zunächst ein Element hinzufügen. Diese Wiederholung können wir wiederum beheben, indem wir eine weitere Stack-Instanz anlegen und in der Setup-Methode befüllen.</p>
+<p>Für den Test eines Stacks mag dies noch gut handhabbar sein. In Geschäftsanwendungen arbeiten wir aber in der Regel mit deutlich komplexeren Objekten und müssen deren Interaktionen mit anderen Objekten beachten. Hier sieht man dann häufig riesige Setup-Blöcke, in denen mehrere Objektinstanzen und Mocks erzeugt und konfiguriert werden, die dann jeweils nur von einigen Testmethoden verwendet werden. Möchte man einen Test hinzufügen, führen schon minimale Änderungen der Konfiguration dazu, dass andere Tests fehlschlagen. Die Folge: Test Setups werden kopiert, die Tests werden unübersichtlicher, die Wartbarkeit leidet.</p>
+<h2>Bessere Test durch geschachtelte Kontexte</h2>
+<p>Hier zeigt sich ein zentrales Problem einer flachen Teststruktur: Obwohl unterschiedliche Setups aufeinander aufbauen, lässt sich dieser Fakt nicht in der Testimplementierung abbilden. Im Beispiel des Stacks können wir uns den gefüllten Stack als Ableitung des leeren Stacks vorstellen. Wir bekommen einen gefüllten Stack, indem wir dem leeren Stack mindestens ein Element hinzufügen. Mit JUnit 5 können wir genau das durch geschachtelte Testklassen erreichen:</p>
+<pre lang="java">
+class StackTests {
+
+    private Stack<String> stack;
+
+    @BeforeEach
+    void setUp() {
+        stack = new Stack<>();
+    }
+
+    @Nested
+    class GivenAnEmptyStack {
+
+        @BeforeEach
+        void setUp() {
+            stack.clear();
+        }
+
+        @Test
+        void thenTheSizeOfTheStackShouldBeZero() {
+            assertEquals(0, stack.size());
+        }
+
+        // more tests for verifying empty stack behavior
+
+        @Nested
+        class WhenAnElementIsAdded {
+
+            @BeforeEach
+            void setUp() {
+                stack.add("elem");
+            }
+
+            @Test
+            void thenTheSizeOfTheStackShouldBeOne() {
+                assertEquals(1, stack.size());
+            }
+
+            // more test for verifying filled stack behavior
+        }
+    }
+}
+</pre>
+<p>Wie zu sehen ist, benötigen wir nur eine Stack-Instanz im Test, können diese aber für die verschiedenen Fälle unterschiedlich konfigurieren. Dies gelingt dadurch, dass jede geschachtelte Testklasse einen eigenen Subkontext aufbaut: Das Hinzufügen des Elements <code>"elem"</code> ist nur für die Testmethoden innerhalb der Klasse <code>WhenAnElementIsAdded</code> sichtbar. Diese Struktur führt auch dazu, dass die Testmethoden jeweils nur noch die Assertion enthalten – es ist offensichtlicher, was hier eigentlich geprüft wird. Der Aufbau des benötigten Zustands verschiebt sich in die Setup-Methoden und kann so zwischen den Testmethoden geteilt werden.</p>
+<p>Darüber hinaus wird diese Struktur von IDEs wie IntelliJ sehr übersichtlich dargestellt: </p>
+<p><a href="https://blog.codecentric.de/files/2018/09/Bildschirmfoto-2018-09-18-um-08.37.41.png"><img src="https://blog.codecentric.de/files/2018/09/Bildschirmfoto-2018-09-18-um-08.37.41-700x300.png" alt="Darstellung der Given-When-Then Teststruktur in IntelliJ" class="aligncenter size-large wp-image-56085" srcset="https://blog.codecentric.de/files/2018/09/Bildschirmfoto-2018-09-18-um-08.37.41-700x300.png 700w, https://blog.codecentric.de/files/2018/09/Bildschirmfoto-2018-09-18-um-08.37.41-250x107.png 250w, https://blog.codecentric.de/files/2018/09/Bildschirmfoto-2018-09-18-um-08.37.41-768x330.png 768w, https://blog.codecentric.de/files/2018/09/Bildschirmfoto-2018-09-18-um-08.37.41-120x52.png 120w, https://blog.codecentric.de/files/2018/09/Bildschirmfoto-2018-09-18-um-08.37.41.png 1426w" sizes="(max-width: 700px) 100vw, 700px" /></a></p>
+<p>Zu Verbesserung der Lesbarkeit habe ich hier noch mit mit <code>@DisplayName</code> gearbeitet. Das vollständige Codebeispiel findet ihr <a href="https://github.com/codecentric/junit-5-bdd">auf GitHub</a>.</p>
+<h2>Fazit</h2>
+<p>Klassische JUnit-Tests mit &#8222;flacher&#8220; Teststruktur werden häufig durch sich wiederholende Setups unübersichtlich. In diesem Blogpost habe ich gezeigt, wie sich dies durch den Given-When-Then-Ansatz vermeiden lässt. Dazu habe ich die <code>@Nested</code>-Annotation aus JUnit 5 verwendet, um die unterschiedlichen Testkontexte ineinander zu schachteln und so die Wiederverwendung zu erhöhen.</p>
+<p>Der Beitrag <a rel="nofollow" href="https://blog.codecentric.de/2018/09/behavior-driven-development-mit-junit-5/">Behavior-Driven Development mit JUnit 5</a> erschien zuerst auf <a rel="nofollow" href="https://blog.codecentric.de">codecentric AG Blog</a>.</p>
+<img src="http://feeds.feedburner.com/~r/CodecentricBlog/~4/7bnfI8eBomE" height="1" width="1" alt=""/>]]></content:encoded>
+      <wfw:commentRss>https://blog.codecentric.de/2018/09/behavior-driven-development-mit-junit-5/feed/</wfw:commentRss>
+      <slash:comments>0</slash:comments>
+      <feedburner:origLink>https://blog.codecentric.de/2018/09/behavior-driven-development-mit-junit-5/</feedburner:origLink></item>
+    <item>
+      <title>Sicherheitskopien von OpenShift Projekten</title>
+      <link>http://feedproxy.google.com/~r/CodecentricBlog/~3/CDUyRpZPdjw/</link>
+      <comments>https://blog.codecentric.de/2018/09/openshift-backups/#respond</comments>
+      <pubDate>Fri, 14 Sep 2018 11:00:32 +0000</pubDate>
+      <dc:creator><![CDATA[Gerald Schmidt]]></dc:creator>
+      <category><![CDATA[Allgemein]]></category>
+      <category><![CDATA[Infrastructure]]></category>
+      <category><![CDATA[Open Source]]></category>
+      <category><![CDATA[OpenShift]]></category>
+      <category><![CDATA[backups]]></category>
+      <category><![CDATA[Kubernetes]]></category>
+
+      <guid isPermaLink="false">https://blog.codecentric.de/2018/08/openshift-project-backups/</guid>
+      <description><![CDATA[<p>Dr. Jekylls Elixir verdankt seine Wirkung einer ‘unbekannten Verunreinigung’ des Rezepts. Dies führt dazu, dass Dr. Jekyll seine schwindenden Vorräte nicht auffrischen kann und so die Kontrolle über sein gefährliches Alter Ego verliert. Ähnlich kann es uns mit Konfigurationsfehlern ergehen. Oft ist es fast unmöglich zu erkennen, weshalb ein älterer, ohne große Sorgfalt erstellter Versionsstand... <a class="view-article" href="https://blog.codecentric.de/2018/09/openshift-backups/">Weiterlesen</a></p>
+<p>Der Beitrag <a rel="nofollow" href="https://blog.codecentric.de/2018/09/openshift-backups/">Sicherheitskopien von OpenShift Projekten</a> erschien zuerst auf <a rel="nofollow" href="https://blog.codecentric.de">codecentric AG Blog</a>.</p>
+]]></description>
+      <content:encoded><![CDATA[<p>Dr. Jekylls Elixir verdankt seine Wirkung einer ‘unbekannten Verunreinigung’ des Rezepts. Dies führt dazu, dass Dr. Jekyll seine schwindenden Vorräte nicht auffrischen kann und so die Kontrolle über sein gefährliches Alter Ego verliert. Ähnlich kann es uns mit Konfigurationsfehlern ergehen. Oft ist es fast unmöglich zu erkennen, weshalb ein älterer, ohne große Sorgfalt erstellter Versionsstand funktioniert hat, während alle Bemühungen, ihn zu reproduzieren, fehlschlagen. Ich möchte zeigen, dass regelmäßige Sicherheitskopien uns an dieser Stelle weiterhelfen können.</p>
+<p>Ich möchte zwischen zwei verschiedenen Ansätzen zu solchen Backups unterscheiden. Zum einen gibt es ein weiteres Fläschchen im Kühlschrank. Sein Inhalt gleicht dem des ursprünglichen Elixirs. Man kann es mit einem Datenbank Snapshot vergleichen. Zum anderen können wir uns einen Laborbericht zum Elixir vorstellen. Dieser stellt vermutlich unsere einzige Chance dar, die ‘unbekannte Verunreinigung’ zu identifizieren und nach Wunsch zu reproduzieren.</p>
+<p>In vielen Fällen ist das Fläschchen im Kühlschrank dem Laborbericht vorzuziehen. Man kann sich darunter ein Backup der zentralen <code>etcd</code> Datenbank des Kubernetes Masters vorstellen. Ich möchte mich dennoch auf den Laborbericht konzentrieren. Unter Zeitdruck mag dieser wenig hilfreich erscheinen, aber er bietet eine detaillierte, visuell lesbare Perspektive auf einen Zeitpunkt, zu dem unser Dienst korrekt funktioniert hat.</p>
+<p>Obwohl dieser Ansatz nur in Ausnahmefällen die Wiederherstellung eines ganzen Clusters ermöglicht, können wir ein Projekt unter die Lupe nehmen, seine Bestandteile isolieren und hoffentlich die fast unsichtbare Konfigurationseinstellung identifizieren, die den Unterschied zwischen einem erfolgreichen und einem fehgeschlagenen Deployment ausmacht.</p>
+<p>Der Vorgang erfordert keine Datenbanksperre. Wir erstellen gültige, eingerückte JSON Objekte, keine Binärartefakte. Wir erzeugen eine gewisse Last, aber keine Unterbrechung.</p>
+<p>Man könnte annehmen, dass Laborberichte nicht nötig sind, da unsere Infrastruktur komplett aus Quellcode aufgebaut wird. Alle wichtigen Details sind in Git abgelegt. Sollte da nicht das Rezept reichen? Komplette Übereinstimmung von Infrastuktur und Quellcode bleibt leider meist ein unerfüllter Wunsch. Wer kann behaupten, nie Feineinstellungen an Diensten vorzunehmen (ein Port hier, ein angepasster Health Check da); wer reißt regelmäßig die Cluster ab, um sie komplett neu aufzusetzen? Wir sind anfälliger für Dr. Jekylls Dilemma als wir annehmen.</p>
+<h2>Export der Projekte</h2>
+<p>Das Skript <code>export_project.sh</code> im Git Repository <a href="https://github.com/openshift/openshift-ansible-contrib">openshift/openshift-ansible-contrib</a> stellt unseren Ausgangspunkt dar. Wir verwenden eine angepasste Version (s. <a href="https://github.com/openshift/openshift-ansible-contrib/pull/1068">Pull Request</a>, inzwischen in Branch Master übernommen).</p>
+<p>Eine Stärke der Kubernetes Objekt-Datenbank ist, dass einzelne Objekte als JSON/YAML serialisiert und mit gewöhnlichen Kommandozeilentools gefiltert werden können. Wir bestimmen zum einen, welche Objekte für uns interessant sind, und zum anderen, welche Eigenschaften ausgelassen werden können. So können wir gewöhnlich auf Verwaltungseigenschaften wie <code>.status</code> verzichten.</p>
+<p><code>oc export</code> wird in einer zukünftigen Version entfernt, also benutzen wir <code>oc get -o json</code> (nachbereitet mit <code>jq</code>) um unsere Objektdefinitionen zu exportieren. Pods sind ein gutes Beispiel. Die meisten Podeigenschaften sind für unsere Zwecke wertvoll, aber es gibt auch einige, die wegfallen können: Zusätzlich zur bereits erwähnten Eigenschaft <code>.status</code> filtern wir <code>.metadata.uid</code>, <code>.metadata.selfLink</code>, <code>.metadata.resourceVersion</code>, <code>.metadata.creationTimestamp</code> und <code>.metadata.generation</code> aus.</p>
+<p>Hierbei kommt es zu einer gewissen Duplizierung von Eigenschaften. Wir sichern Pod und ReplicationController Definitionen, aber wir sichern außerdem Deploymentkonfigurationen. Wenn ein Objekt des Typs DeploymentConfiguration vorliegt, sind Pods und ReplicationController gewissermaßen redundant. Dennoch scheint es ratsam, alle drei Objekte aufzubewahren. Es ist nicht nötig, von einer bestimmten Deploymentsequenz auszugehen, und einzelne Objekteigenschaften (ein Healthcheck des Pods, zum Beispiel) könnten angepasst worden sein. Wir können die Möglichkeit einer unscheinbaren und dennoch entscheidenden Veränderung nicht ausschließen.</p>
+<p>Ich möchte auch betonen, dass dieser Ansatz weder Images noch Applikationsdaten (ob in <code>emptyDir</code> Verzeichnissen oder persistent abgelegt) sichert. Er ergänzt Sicherheitskopien der <code>etcd</code> Datenbank und Dateisysteme, aber er kann sie nicht ersetzen.</p>
+<p>Welche Veränderungen wurden am Skript vorgenommen? Der Pull Request adressiert drei Probleme: Der Exportprozess bricht nicht mehr ab wenn ein Ressourcentyp nicht erkannt wird. Er gibt lediglich eine Warnung aus. So können ältere OpenShift Versionen unterstützt werden. Ganz ähnlich fährt der Export fort wenn der Master Nutzern Zugriff auf einen Ressourcentyp verwehrt. Damit wird nicht-Admins die Nutzung des Skripts ermöglicht. Drittens gibt der Export stets gültiges JSON aus. Die &lsquo;stacked JSON&rsquo; Ausgabe des Originals wird zwar von <code>jq</code> und auch <code>oc</code> unterstützt, aber es scheint für den Backupgebrauch zu riskant, sich darauf zu verlassen, dass wir zu einem späteren Zeitpunkt mit ungültigem JSON arbeiten können. <code>python -m json.tool</code>, zum Beispiel, erfordert gültiges JSON mit einem Rootelement und lehnt die Ausgabe des ursprünglichen Skripts ab. &lsquo;Stacked JSON&rsquo; ist eine ausgezeichnete Wahl für die Übertragung von Zeitreihendaten wie Logeinträgen, aber nicht für Sicherheitskopien von JSON Objekten.</p>
+<h2>Automatisierte Backups</h2>
+<p>Jetzt können wir uns der Automatisierung widmen. Gehen wir von nächtlichen Projektbackups aus. Wir erstellen Exports für alle Projekte, komprimieren die Ausgabe, fügen einen Datumstempel hinzu und legen das Archiv in permanentem Speicher ab. Wenn das gelingt, rotieren wir die Archive indem wir alle Dateien löschen, die älter als eine Woche sind. Die Parameter (wann und wie oft der Export ausgeführt wird, die Vorhaltezeit, usw.) werden dem CronJob-Template bei der Erstellung mitgegeben.</p>
+<p>Angenommen, wir haben das System eingerichtet und gestartet. Was genau geschieht im Projekt <code>cluster-backup</code>?</p>
+<figure><a href="https://blog.codecentric.de/files/2018/08/backup-restore.png"><img class="alignnone size-large wp-image-55676" src="https://blog.codecentric.de/files/2018/08/backup-restore-700x344.png" alt="Grafische Darstellung des Backup Dienstes" srcset="https://blog.codecentric.de/files/2018/08/backup-restore-700x344.png 700w, https://blog.codecentric.de/files/2018/08/backup-restore-250x123.png 250w, https://blog.codecentric.de/files/2018/08/backup-restore-768x378.png 768w, https://blog.codecentric.de/files/2018/08/backup-restore-120x59.png 120w, https://blog.codecentric.de/files/2018/08/backup-restore.png 1175w" sizes="(max-width: 700px) 100vw, 700px" /></a><figcaption><strong>Abb. 1</strong> Backup Dienst</figcaption></figure>
+<p>Das nächtliche CronJob Objekt erstellt einen Pod, der das Skript <code>project_export.sh</code> für alle Projekte im Cluster ausführt. Auf dem Pod sind lediglich <code>oc</code> und <code>jq</code> installiert. Es mag praktisch erscheinen, diesem Pod die Wiederherstellung aus gezogenen Backups zu ermöglichen, aber wir sollten dieser Versuchung widerstehen, da dies sehr großzügigen Schreibzugriff auf den Cluster erfordern würde.</p>
+<p>Der permanente Speicher ist mit Zugriffsmodus <code>ReadWriteMany</code> ausgestattet, so dass wir auch während eines laufenden Backups unsere Archive erreichen können. Dies geschieht mit Hilfe eines stets laufenden Pods, der sonst exakt dem kurzlebigen Pod des CronJobs entspricht:</p>
+<pre><code>$ oc project cluster-backup
+$ POD=$(oc get po | grep Running | cut -d' ' -f1)
+$ oc exec ${POD} -- ls -1 /openshift-backup
+openshift-backup20180911.zip
+openshift-backup20180912.zip
+openshift-backup20180913.zip
+</code></pre>
+<h2>Rollenkonzept</h2>
+<p>Der Aspekt Rechtevergabe ist entscheidend. Der technische User des Pods erhält <code>cluster-reader</code> Rechte und eine zusätzliche, für diesen Zweck erstellte Clusterrolle <code>secret-reader</code>. Ihre Definition ist folgende:</p>
+<pre><code>kind: ClusterRole
+apiVersion: v1
+metadata:
+  name: ${NAME}-secret-reader
+rules:
+- apiGroups: [""]
+  resources: ["secrets"]
+  verbs: ["get", "list"]</code></pre>
+<p>Das ist eine sehr mächtige Rolle insbesondere in Verbindung mit <code>cluster-reader</code> Privilegien. Die Hauptsache ist jedoch, dass es eine strikt lesende Rolle ist. Ein besonders wertvoller Aspekt von maßgeschneiderten Clusterrollen ist, dass sie uns davor bewahren, technische User mit <code>cluster-admin</code> Rechten zu versehen.</p>
+<p>Unsere Sicherung der Projekte darf nicht an der Entscheidung scheitern, Ressourcen wie Secrets oder Routen auszuschließen. Man sollte auch nicht in die Verlegenheit kommen, Teile des Exportskripts auszukommentieren, nur damit das Backup durchläuft. Die Rechtevergabe erfolgt über die Definition des technischen Users. Jeder Ressourcentyp wird auf Verfügbarkeit und Zugriffsberechtigung geprüft. Exportiert wird nur das, was der technische User sehen kann.</p>
+<figure><a href="https://blog.codecentric.de/files/2018/08/permissions.png"><img class="alignnone size-large wp-image-55678" src="https://blog.codecentric.de/files/2018/08/permissions-700x254.png" alt="an alternative overview centred on rights and permissions" srcset="https://blog.codecentric.de/files/2018/08/permissions-700x254.png 700w, https://blog.codecentric.de/files/2018/08/permissions-250x91.png 250w, https://blog.codecentric.de/files/2018/08/permissions-768x279.png 768w, https://blog.codecentric.de/files/2018/08/permissions-120x44.png 120w, https://blog.codecentric.de/files/2018/08/permissions.png 1013w" sizes="(max-width: 700px) 100vw, 700px" /></a><figcaption><strong>Abb. 2</strong> Rollenkonzept</figcaption></figure>
+<p>Administratorzugang wird nur beim Erstellen des Projekts benötigt. Die Annahme ist, dass dies durch angemeldete (menschliche) Nutzer geschieht. Wie Abb. 2 zeigt, erhält der Pod, der die eigentliche Arbeit ausführt, &lsquo;security context constraint restricted’ und &lsquo;security context non-privileged’. Im wesentlichen hat der technische User des Pods lesenden Zugriff auf die <code>etcd</code> Datenbank und Schreibberechtigung für den permanenten Backup Speicher.</p>
+<h2>Wo fange ich an &ndash; und warum?</h2>
+<p>Um das Projekt aufzusetzen, reicht die folgende Eingabe:</p>
+<pre><code>$ git clone https://github.com/gerald1248/openshift-backup
+$ make -C openshift-backup</code></pre>
+<p>Wer nicht auf den nächtlichen CronJob warten möchte, kann wie oben die Variable <code>POD</code> setzen und eine Sicherheitskopie aller Projekte erstellen:</p>
+<pre><code>$ oc exec ${POD} openshift-backup
+Exporting 'rc' resources to myproject/rcs.json
+Exporting 'rolebindings' resources to myproject/rolebindings.json
+Skipped: list empty
+Exporting 'serviceaccounts' resources to myproject/serviceaccounts.json
+...
+</code></pre>
+<p>Das Ergebnis ist ein Archiv im Ordner <code>/openshift-backup</code> mit einem Dateinamen gemäß <code>openshift-backupyyyymmdd.zip</code>. In jedem Fall sollte man prüfen, ob das Backup korrekt erstellt worden ist. Es ist zum Beispiel denkbar, dass kein permanenter &lsquo;ReadWriteMany&rsquo; Speicher provisioniert werden konnte. Man kann das Skript <code>project_import.sh</code> (es ist neben <code>project_export.sh</code> im Repository <a href="https://github.com/openshift/openshift-ansible-contrib" rel="noopener noreferrer" target="_blank">openshift/openshift-ansible-contrib</a> abgelegt) benutzen, um ein Projekt zur Zeit wiederherzustellen. Oft ist das Backup aber eher als Analysewerkzeug zu betrachten. Meistens interessiert uns nicht ein ganzes Projekt und schon gar nicht der ganze Cluster. Der größte Nutzen liegt darin, je nach Bedarf einzelne Objekte neu erstellen zu können.</p>
+<p>Kubernetes und damit OpenShift verwaltet eine sehr große Anzahl von Objekten für ein durchschnittliches Projekt. Jedes von ihnen könnte durch <code>oc edit</code> oder <code>oc patch</code> verändert worden sein. Es mag auch gewisse Eigenschaften nicht besitzen, die in dem in Git versionierten YAML Dokument vorhanden sind. Kubernetes verschluckt nicht selten falsch eingerückte Eigenschaften.</p>
+<p>Es gibt viele Wege, unbewusst &lsquo;unbekannte Verunreinigungen&rsquo; in unsere Infrastruktur zu schmuggeln. Wenn wir bedenken wie gering die die benötigte CPU-Last ist, und wie wenig permanenten Speicher eine Woche nächtlicher Projektbackups belegt, scheint es mir sinnvoll, stets Laborberichte in der Hinterhand zu behalten für den Fall, dass die Fläschchen im Kühlschrank zur Neige gehen.</p>
+<p>Der Beitrag <a rel="nofollow" href="https://blog.codecentric.de/2018/09/openshift-backups/">Sicherheitskopien von OpenShift Projekten</a> erschien zuerst auf <a rel="nofollow" href="https://blog.codecentric.de">codecentric AG Blog</a>.</p>
+<img src="http://feeds.feedburner.com/~r/CodecentricBlog/~4/CDUyRpZPdjw" height="1" width="1" alt=""/>]]></content:encoded>
+      <wfw:commentRss>https://blog.codecentric.de/2018/09/openshift-backups/feed/</wfw:commentRss>
+      <slash:comments>0</slash:comments>
+      <feedburner:origLink>https://blog.codecentric.de/2018/09/openshift-backups/</feedburner:origLink></item>
+    <item>
+      <title>Agil trotz klassischen Projektmanagements?</title>
+      <link>http://feedproxy.google.com/~r/CodecentricBlog/~3/OS5KEK1Ued8/</link>
+      <comments>https://blog.codecentric.de/2018/09/agile-softwareentwicklung-trotz-klassischem-projektmanagements/#respond</comments>
+      <pubDate>Wed, 12 Sep 2018 13:25:05 +0000</pubDate>
+      <dc:creator><![CDATA[Goetz Markgraf]]></dc:creator>
+      <category><![CDATA[Agile]]></category>
+      <category><![CDATA[Agile Management]]></category>
+      <category><![CDATA[agil]]></category>
+      <category><![CDATA[Agile Software Development]]></category>
+      <category><![CDATA[Agile Software Factory]]></category>
+      <category><![CDATA[Agile Softwareentwicklung]]></category>
+      <category><![CDATA[Agilität]]></category>
+      <category><![CDATA[wasserfallmodell]]></category>
+      <category><![CDATA[wasserfallprozess]]></category>
+
+      <guid isPermaLink="false">https://blog.codecentric.de/?p=55866</guid>
+      <description><![CDATA[<p>Agil trotz klassischen Projektmanagements? Das kann doch nicht gehen! Agil und klassisch, das sind doch zwei Welten, die nichts miteinander gemein haben! Agil, das ist Scrum! Und Klassik, das ist das Wasserfall-Modell! Solche oder ähnliche Meinungen und Vorurteile kann man immer wieder von denjenigen hören, die in der klassischen Welt zu Hause sind und von... <a class="view-article" href="https://blog.codecentric.de/2018/09/agile-softwareentwicklung-trotz-klassischem-projektmanagements/">Weiterlesen</a></p>
+<p>Der Beitrag <a rel="nofollow" href="https://blog.codecentric.de/2018/09/agile-softwareentwicklung-trotz-klassischem-projektmanagements/">Agil trotz klassischen Projektmanagements?</a> erschien zuerst auf <a rel="nofollow" href="https://blog.codecentric.de">codecentric AG Blog</a>.</p>
+]]></description>
+      <content:encoded><![CDATA[<p>Agil trotz klassischen Projektmanagements? Das kann doch nicht gehen! Agil und klassisch, das sind doch zwei Welten, die nichts miteinander gemein haben! Agil, das ist Scrum! Und Klassik, das ist das Wasserfall-Modell!</p>
+<p>Solche oder ähnliche Meinungen und Vorurteile kann man immer wieder von denjenigen hören, die in der klassischen Welt zu Hause sind und von agiler Arbeitsweise bislang nur gehört haben. Oder von solchen, die bisher ausschließlich agil gearbeitet haben und das klassische Projektmanagement nur vom Hörensagen kennen.</p>
+<p>Keine Frage, agil ist in, ist hip. Wer heute modern sein will, macht „in agil“. Und das prinzipiell auch aus gutem Grund, denn die Vorteile agiler Vorgehensweisen haben sich in den letzten Jahren – bzw. Jahrzehnten – für eine ganze Reihe von Aufgabenstellungen bewährt.</p>
+<p>Aber … insbesondere in großen Konzernen und Organisationen ist manchmal eine bestimmte Arbeitsweise vorgeschrieben. Viele große Unternehmen besitzen ein Projektmanagementhandbuch („PM-Handbuch“), das Prozesse, Ergebnistypen, Rollen und Gremien verbindlich vorschreibt. Ohne einen ausgearbeiteten Projektplan mit Phasen, Phasenabschlüssen, fixem Releasetermin, Budgetplanung, Ressourcenplanung und vorab fertiggestelltem Lastenheft erhält man keine Freigabe für sein Projekt, egal wie „agil“ sich der direkt zuständige Auftraggeber sein Vorhaben möglicherweise vorstellt.</p>
+<p>Dazu kommt, dass nicht jedes (Entwickler-)Team für Scrum geeignet ist. Gerade in großen, gewachsenen Organisationen trifft man auch diejenigen Mitarbeiter, die ihr Leben lang nach klarer Vorgabe gearbeitet haben und das nicht ändern wollen oder können.</p>
+<p>Aber: Heißt das, dass in einer solchen Umgebung eine agile Vorgehensweise unmöglich ist? Dass man stets streng nach dem Wasserfallmodell arbeiten muss?</p>
+<p>&nbsp;</p>
+<h2>Das Wasserfallmodell</h2>
+<p>Das Wasserfallmodell ist – wie der Name schon sagt – eine modellhafte Darstellung eines möglichst gut <a href="https://de.wikipedia.org/wiki/Wasserfallmodell#-1" target="_blank" rel="noopener">vorab geplanten Vorgehens</a>. Kernidee ist, dass das Vorhaben in aneinander angrenzende Phasen zerteilt wird, die in der strengen Auslegung stets vollständig durchlaufen werden müssen, bevor eine neue Phase begonnen wird. Häufig schreibt das PM-Handbuch vor, dass die Ergebnisse einer Phase einzeln von einem Lenkungsausschuss abgenommen werden müssen.</p>
+<p><a href="https://blog.codecentric.de/files/2018/09/GMA-Blog-01_1.png"><img class="alignnone size-medium wp-image-55879" src="https://blog.codecentric.de/files/2018/09/GMA-Blog-01_1-250x93.png" alt="Das Wasserfallmodell" srcset="https://blog.codecentric.de/files/2018/09/GMA-Blog-01_1-250x93.png 250w, https://blog.codecentric.de/files/2018/09/GMA-Blog-01_1-768x287.png 768w, https://blog.codecentric.de/files/2018/09/GMA-Blog-01_1-700x261.png 700w, https://blog.codecentric.de/files/2018/09/GMA-Blog-01_1-120x45.png 120w, https://blog.codecentric.de/files/2018/09/GMA-Blog-01_1.png 1302w" sizes="(max-width: 250px) 100vw, 250px" /></a></p>
+<p>Arbeitet ein Unternehmen nach Wasserfall, so muss die komplette Kaskade von Tätigkeiten für jede Phase vorab soweit ausgeplant sein, dass Aufwand, Kosten und Zeit klar sind, ebenso wie der Inhalt der zu leistenden Arbeitspakete. Und diese Gesamtplanung beauftragt der Auftraggeber zu den genannten Kosten bei Projektstart zur Ausführung.</p>
+<p>Tritt während des Projektverlaufs eine Situation ein, die mit dem Plan kollidiert, so muss dieser aufwändig geändert werden. Der neue Plan wird dem Auftraggeber in Form eines Change Request (CR) vorgelegt, damit dieser die geänderte Planung akzeptiert. (Ein solcher CR betrifft in der Regel Kosten und Dauer eines Projektes. Die inhaltlichen Anforderungen werden nur selten im Projektverlauf geändert.)</p>
+<p>Mehrere Iterationen oder frühe und kontinuierliche Produktivsetzung von Projektergebnissen sind im Wasserfallmodell nicht vorgesehen. Und das ist nun wirklich nicht agil.</p>
+<p>&nbsp;</p>
+<h2>Was heißt denn eigentlich „agil“?</h2>
+<p>In den letzten beiden Abschnitten haben wir viel von „agil“ geredet. Aber was ist das eigentlich?</p>
+<p>Gerade in großen Organisationen trifft man zuweilen auf die Haltung: „Ich mache Dailys und habe ein Kanban-Board an der Wand, also bin ich agil“. Und das ist – offen gesprochen – absoluter Quatsch. Ebenso wenig stimmt es, dass nur dasjenige Projekt agil ist, das nach Scrum arbeitet oder streng die WIP-Limits des Kanban-Boards im Auge behält.</p>
+<p>Was agil bedeutet, haben eine Reihe von Leuten im sogenannten <a href="http://agilemanifesto.org/iso/de/manifesto.html" target="_blank" rel="noopener">„Agilen Manifest“</a> im Jahr 2001 festgehalten. Dabei geht es um Werte und Prinzipien und nicht um eine konkrete Vorgehensmethode.</p>
+<p>Hier noch einmal ein Blick auf die vier agilen Werte zur Erinnerung:</p>
+<p style="text-align: center;"><strong>Individuen und Interaktionen</strong> über <strong>Prozesse und Werkzeuge<br />
+</strong><strong>Funktionierende Software</strong> über <strong>umfassende Dokumentation<br />
+</strong><strong>Zusammenarbeit mit dem Kunden</strong> über <strong>Vertragsverhandlung<br />
+</strong><strong>Reagieren auf Veränderung</strong> über <strong>Befolgen eines Plans</strong></p>
+<p>Die Werte auf der rechten Seite sind wichtig, in der agilen Denkweise sind diejenigen auf der linken Seite aber wichtiger und gehen im Konfliktfall vor.</p>
+<p>&nbsp;</p>
+<h2>Widerspricht klassisches Projektmanagement den agilen Werten?</h2>
+<p>Auf den ersten Blick sieht es so aus, als würde das Wasserfallmodell das genaue Gegenteil der agilen Werte fordern, nämlich stets diejenigen Werte auf der rechten Seite denjenigen der linken Seite vorzuziehen.</p>
+<p>Der Projekt- und Aktivitätenplan wird vorab aufgestellt und möglichst genau befolgt. Eine Änderung dieses Plans ist ein aufwändiges Unterfangen, das viele Dokumente, Zustimmungen und ein Einbeziehen des Lenkungsausschusses erfordert. Allein die dafür notwendigen Menschen innerhalb kurzer Zeit zu einem Termin zusammenzubringen, ist in manchen Unternehmen ein Ding der Unmöglichkeit.</p>
+<p>Eine Phase ist beendet, wenn die Phasenabnahme erfolgt ist, ein späteres Zurückkehren zu einer vorherigen Phase ist nicht vorgesehen.</p>
+<p>Wie kann man da agil sein? Wie kann man so auf Veränderungen reagieren?</p>
+<p>Doch, es geht!</p>
+<p>Zunächst einmal muss man wissen, dass kaum ein Wasserfallmodell in der Realität so idealtypisch abläuft, wie es im obigen Bild suggeriert wird. Normalerweise überlappen die Phasen einander.</p>
+<p><a href="https://blog.codecentric.de/files/2018/09/GMA-Blog-01_2.png"><img class="alignnone size-medium wp-image-55880" src="https://blog.codecentric.de/files/2018/09/GMA-Blog-01_2-250x98.png" alt="Das Wasserfallmodell mit sich überlappenden Phasen" srcset="https://blog.codecentric.de/files/2018/09/GMA-Blog-01_2-250x98.png 250w, https://blog.codecentric.de/files/2018/09/GMA-Blog-01_2-768x300.png 768w, https://blog.codecentric.de/files/2018/09/GMA-Blog-01_2-700x273.png 700w, https://blog.codecentric.de/files/2018/09/GMA-Blog-01_2-120x47.png 120w, https://blog.codecentric.de/files/2018/09/GMA-Blog-01_2.png 1290w" sizes="(max-width: 250px) 100vw, 250px" /></a></p>
+<p>Auch in anderer Hinsicht kann und darf man von der „Ideallinie“ abweichen. Und genau an diesen Stellen kann man ansetzen – wenn die Organisation und die Auftraggeber mitspielen.</p>
+<p>&nbsp;</p>
+<h2>Was kann man wie justieren?</h2>
+<p>Zunächst einmal sollte man frühzeitig bei der Planung die verlangten Phasen möglichst weit überlappen. Alle Beteiligte sollen sich von Anfang an daran gewöhnen, dass die Konzeptionsphase bis kurz vor Ende der Realisierung läuft, und dass der Test schon wenige Wochen nach Beginn der Konzeptionen startet.</p>
+<p>Der nächste Schritt besteht darin, die gewünschten Funktionen in möglichst unabhängige Einzel-Features zu schneiden. Mindestens ein ausführliches Lastenheft – auch „Fachliches Grobkonzept“genannt – besteht ja vor Beginn des Projektes, sonst könnte das Projekt nicht geplant werden. Also weiß ich, was sich der Auftraggeber alles an Funktionen, an Features wünscht.</p>
+<p>Diese Features werden dann nach folgenden Gesichtspunkten bewertet:</p>
+<ul>
+<li>Sind andere Features davon abhängig?</li>
+<li>Wie wichtig ist das Feature für den Gesamterfolg?</li>
+</ul>
+<p>Fühlt sich jemand an Aufstellen und Priorisieren eines Product Backlogs erinnert? Das, was wir hier tun, ist sehr ähnlich. Allerdings rate ich davon ab, diese Featureliste „Product Backlog“ zu nennen. Begriffe erzeugen Realität, und wenn die Projektcontroller, die auf einem Wasserfallmodell bestehen, derartige Begriffe hören, könnten Alarmsignale angehen.</p>
+<p>Ist diese Vorarbeit getan, habe ich eine Liste von Features, die in eine Reihenfolge gebracht sind.</p>
+<p>Der nächste Schritt ist absolut entscheidend: Ich teile das gesamte Projekt in (mindestens) zwei Teile, jeweils mit einem Release am Ende.</p>
+<p><a href="https://blog.codecentric.de/files/2018/09/GMA-Blog-01_3.png"><img class="alignnone wp-image-55881 size-medium" src="https://blog.codecentric.de/files/2018/09/GMA-Blog-01_3-250x65.png" alt="Wasserfallmodell mit zwei Releases" width="250" height="65" srcset="https://blog.codecentric.de/files/2018/09/GMA-Blog-01_3-250x65.png 250w, https://blog.codecentric.de/files/2018/09/GMA-Blog-01_3-768x200.png 768w, https://blog.codecentric.de/files/2018/09/GMA-Blog-01_3-700x182.png 700w, https://blog.codecentric.de/files/2018/09/GMA-Blog-01_3-120x31.png 120w" sizes="(max-width: 250px) 100vw, 250px" /></a></p>
+<p>Was gibt mir die Erlaubnis, das Projekt so zu planen? Die Auftraggeber möchten in der Regel sehr schnell Resultate erzielen. Gleichzeitig möchten sie nicht auf die von ihnen anfangs aufgestellten Features verzichten. Aber beides muss nicht notwendigerweise zum gleichen Zeitpunkt passieren. Wenn ich geschickt argumentiere, kann ich die Auftraggeber von den Vorteilen mehrerer Releases überzeugen.</p>
+<p>Wie ich das Projekt aufteile, ist situationsabhängig. Vielleicht orientiere ich mich an den Features, teile sie in „Release 1.0“ und „Release 1.1“ (oder weitere) auf. Vielleicht teile ich auch den Aufwand oder die Zeit linear – z. B. zu 70 % bzw. 30 % – und ordne die Features danach zu. In jedem Fall muss dem Auftraggeber und dem Lenkungsausschuss bewusst werden, dass sie beim ersten Release nicht die komplette Funktionalität haben, diese aber in weiteren Releases bekommen werden.</p>
+<p>Insbesondere die Liste der Features, die im ersten Release vorgesehen sind, stimme ich intensiv mit den Auftraggebern ab. Gleichzeitig behalte ich im Hinterkopf, dass diese Liste nur ein „erster Aufschlag“ ist. Warum, das erkläre ich gleich.</p>
+<p>Sobald diese Vorarbeiten einvernehmlich geklärt und bestätigt sind, kann das Projekt starten und die Projektarbeit beginnen. Dabei werden die Features in der aktuell entschiedenen Reihenfolge bearbeitet.</p>
+<p>Jedes Feature durchläuft jetzt für sich genommen den Wasserfallprozess:</p>
+<p><a href="https://blog.codecentric.de/files/2018/09/GMA-Blog-01_4.png"><img class="alignnone size-medium wp-image-55882" src="https://blog.codecentric.de/files/2018/09/GMA-Blog-01_4-250x141.png" alt="Feature durchlaufen jedes für sich den Wasserfallprozess" srcset="https://blog.codecentric.de/files/2018/09/GMA-Blog-01_4-250x141.png 250w, https://blog.codecentric.de/files/2018/09/GMA-Blog-01_4-768x433.png 768w, https://blog.codecentric.de/files/2018/09/GMA-Blog-01_4-700x395.png 700w, https://blog.codecentric.de/files/2018/09/GMA-Blog-01_4-120x68.png 120w, https://blog.codecentric.de/files/2018/09/GMA-Blog-01_4.png 1293w" sizes="(max-width: 250px) 100vw, 250px" /></a></p>
+<p>&nbsp;</p>
+<h2>Anpassungen während der Projektlaufzeit</h2>
+<p>Jetzt läuft also das Projekt. Das Team ist dabei, die einzelnen Features nacheinander (oder auch parallel) zu konzipieren, zu entwickeln und dem Komponententest zu unterziehen.</p>
+<p>Und auch wenn es diejenigen, die an Pläne glauben, nicht wahrhaben wollen: Es ist vorhersehbar, dass dabei etwas Unvorhersehbares geschieht.</p>
+<p>Zum Beispiel fällt bei der Entwicklung auf, dass die DV-Konzeption unvollständig gewesen ist oder verändert werden muss. Kein Problem. Da alle Phasen nahezu gleichzeitig laufen, kann ich mit einem einzelnen Feature jederzeit Schritte zurück machen.</p>
+<p>Nur führt das häufig zur nächsten Herausforderung:</p>
+<p>Ein Feature benötigt mehr Aufwand / Zeit als ursprünglich geplant!</p>
+<p>Das allererste Mittel, dieser Situation zu begegnen, ist Ruhe bewahren. Manchmal gleicht sich eine Aufwanderhöhung an einer Stelle durch Einsparungen an anderer Stelle aus. Vielleicht habe ich vorsorglich einen Aufwandspuffer eingebaut, aus dem sich das Projekt bedienen kann. Häufig genug reichen diese Maßnahmen aber nicht (mehr), und ich muss handeln.</p>
+<p>Im „normalen“ Wasserfall muss ich an dieser Stelle einen Change Request vorbereiten. In der angepassten Vorgehensweise habe ich noch andere Optionen.</p>
+<p>Als Grundsatz gilt: <strong>Jedes noch nicht begonnene Feature steht zur Disposition.</strong></p>
+<p>Ich habe einige Handlungsmöglichkeiten, um auf die neuen Anforderungen zu reagieren:</p>
+<ul>
+<li><strong>Ein Feature wird auf ein späteres Release verschoben.</strong> Ich muss nach jedem Release das Folgeprojekt sowieso neu bewerten. Es ist einfacher, einen gemeinsamen CR nach dem Release zu erstellen, als mehrfach während der Projektlaufzeit.</li>
+<li><strong>Features können in der Reihenfolge verändert werden.</strong> Manchmal löst das schon den Knoten, weil Abhängigkeiten, die ich vorher nicht gesehen habe, sichtbar werden.</li>
+<li><strong>Der Projektverlauf zeigt, dass einzelne geplante Features nicht unbedingt sinnvoll sind.</strong> Wir können dem Auftraggeber vorschlagen, als Kompensation unnötige Features wegzulassen. Erstaunlicherweise ist ein Auftraggeber bei einem laufenden Projekt häufig bereiter, über so etwas zu reden, als vor dem Start eines Projektes.</li>
+</ul>
+<p>In jedem Fall habe ich Handlungsspielraum, den ich nutzen kann.</p>
+<p>Häufig werden auch komplett neue Anforderungen an das Projekt gestellt. Und hier kann man mit einer angepassten Vorgehensweise richtig punkten.</p>
+<p>Ein „klassischer“ Projektleiter, der die agilen Werte nicht berücksichtigt, wird sich gegen eine solche neue Anforderung stets sperren. Das muss er oder sie sogar tun, denn schließlich gibt es ja einen vereinbarten Projektauftrag, den der Auftraggeber nicht einseitig ändern kann, und den der Projektleiter verteidigen muss.</p>
+<p><a href="https://blog.codecentric.de/files/2018/09/GMA-Blog-01_5.png"><img class="alignnone wp-image-55883 size-medium" src="https://blog.codecentric.de/files/2018/09/GMA-Blog-01_5-250x148.png" alt="Projektleiter weist neue Anforderung ab." width="250" height="148" srcset="https://blog.codecentric.de/files/2018/09/GMA-Blog-01_5-250x148.png 250w, https://blog.codecentric.de/files/2018/09/GMA-Blog-01_5-768x454.png 768w, https://blog.codecentric.de/files/2018/09/GMA-Blog-01_5-700x414.png 700w, https://blog.codecentric.de/files/2018/09/GMA-Blog-01_5-120x71.png 120w, https://blog.codecentric.de/files/2018/09/GMA-Blog-01_5.png 1248w" sizes="(max-width: 250px) 100vw, 250px" /></a></p>
+<p>Die neue Anforderung ist aber möglicherweise gut und sinnvoll. Bleibt also wieder nur der CR?</p>
+<p>&nbsp;</p>
+<p>In unserem Szenario kann ich als Projektleiter jetzt für den Auftraggeber deutlich positiver reagieren. Ich nehme die neue Anforderung positiv zur Kenntnis, gemäß dem agilen Prinzip, Veränderungen zu begrüßen. Als Erstes bewerte ich sie zusammen mit dem Team.</p>
+<p>Und dann biete ich eines der bereits geplanten Features zum Streichen an. Natürlich kann ich als Projektleiter nicht einfach die Ausweitung des Scopes akzeptieren. Aber ein Tausch, bei dem die übrigen Parameter (Aufwand, Zeit) in etwa gewahrt bleiben, den kann ich akzeptieren.</p>
+<p>Wieder gilt der Grundsatz: <strong>Jedes, noch nicht begonnene Feature steht zur Disposition.</strong></p>
+<p><a href="https://blog.codecentric.de/files/2018/09/GMA-Blog-01_6.png"><img class="alignnone wp-image-55884 size-medium" src="https://blog.codecentric.de/files/2018/09/GMA-Blog-01_6-250x118.png" alt="Agiler Projektleiter nimmt neue Features an" width="250" height="118" srcset="https://blog.codecentric.de/files/2018/09/GMA-Blog-01_6-250x118.png 250w, https://blog.codecentric.de/files/2018/09/GMA-Blog-01_6-768x363.png 768w, https://blog.codecentric.de/files/2018/09/GMA-Blog-01_6-700x331.png 700w, https://blog.codecentric.de/files/2018/09/GMA-Blog-01_6-120x57.png 120w, https://blog.codecentric.de/files/2018/09/GMA-Blog-01_6.png 1406w" sizes="(max-width: 250px) 100vw, 250px" /></a></p>
+<p>&nbsp;</p>
+<h2>Wir arbeiten agil</h2>
+<p>Ein Projekt, das auf die oben beschriebene Weise geführt wird, wird beim Auftraggeber gut ankommen, denn er oder sie wird das Gefühl haben, Einfluss nehmen und das Projekt gestalten zu können. Und das, auch ohne jedes Mal einen CR ertragen zu müssen.</p>
+<p>Als Projektleiter hat man größere Freiheiten, um im Projektverlauf auf diejenigen Ereignisse zu reagieren, die mit deutlich größerer Häufigkeit auftreten, als es die Projektcontroller und die Damen und Herren des PM-Handbuches vermuten.</p>
+<p>Werfen wir noch einmal einen Blick auf die agilen Werte. Der Fokus des oben gesagten liegt dabei vor allem auf den Werten „Reagieren auf Veränderungen“ und „Zusammenarbeit mit dem Kunden“. Wie gezeigt kann man beide Werte auch in klassischer Vorgehensweise den Werten „Vertragsverhandlung“ und „Befolgen eines Plans“ vorziehen.</p>
+<p>Und wie steht es mit den anderen Werten und Prinzipien?</p>
+<p>Auch in einem klassischen Projekt sollten alle Projektmitarbeiter häufig – im besten Fall täglich – zusammenarbeiten. Besonders effektiv ist es, ein Projektteam an einem Ort zu konzentrieren, um miteinander zu kommunizieren, anstelle anonyme Konzepte „über den Zaun geworfen zu bekommen“ („Individuen und Interaktionen“ über „Prozesse und Werkzeuge“).</p>
+<p>Und automatisierte Tests helfen dabei, den Fokus auf „Funktionierende Software“ zu legen, anstelle auf „umfassende Dokumentation“.</p>
+<p>Sehr empfehlenswert ist es übrigens, einige weitere Methoden des agilen Werkzeugkastens zu adaptieren. Dazu gehören sicherlich das Daily Stand-up (IT und Fachbereich zusammen) und die Retrospektive (Retro), also das regelmäßige Zusammensitzen des gesamten Teams, um die Vorgehensweise zu hinterfragen. Eine solche Retro empfiehlt sich mindestens nach jedem Release (nennt sich dann üblicherweise „Lessons learned session“). Es hindert einen aber niemand daran, sich alle 2-3 Wochen mit dem Team zu treffen und die eigene Vorgehensweise zu reflektieren.</p>
+<p>&nbsp;</p>
+<h2>Wo sind die Grenzen? Wie agil kann man werden?</h2>
+<p>Das agile Manifest untermauert die vier oben genannten Werten mit einer Reihe von Prinzipien. Einige davon sind in einer klassischen Projektumgebung vergleichsweise schwierig umzusetzen. Dazu zählen insbesondere diejenigen Prinzipien, die auf eine frühe und regelmäßige Auslieferung von Software zielen. Klassische Organisationen erlauben Auslieferungen von Software häufig nur nach Durchlaufen eines komplexen Genehmigungsverfahrens, mit mehreren Stufen der Abnahme und Qualitätskontrolle. Einen solchen Prozess durchläuft man nur sehr ungern alle 2-3 Wochen.</p>
+<p>Trotzdem kann man auch hier sinnvolle Dinge tun:</p>
+<p>Um frühzeitig Rückmeldung von Anwendern zu bekommen, gibt es zum Beispiel die Methode des Rapid Prototyping, um (zumindest von ausgewählten Anwendern) frühzeitig eine Rückmeldung zu erhalten.</p>
+<p>&nbsp;</p>
+<h2>Zusammenfassung: Es geht also doch</h2>
+<p>Was zunächst wie ein Widerspruch ausgesehen hat, muss bei näherer Betrachtungsweise keiner sein. Es ist durchaus möglich, mit den Methoden des klassischen Projektmanagements die Werte und Prinzipien der agilen Softwareentwicklung zu verfolgen. Dazu ist es allerdings notwendig, dass Projektleiter und Auftraggeber einvernehmlich einige Vereinbarungen treffen.</p>
+<p>Das volle Potenzial von agilem Vorgehen wird man damit allerdings nicht erreichen können. Dafür muss eine Organisation bereit sein, die eigene Arbeitsweise zu verändern, mehr Transparenz zu wagen und mehr Kompetenzen von den Führungskräften auf die Mitarbeiter zu verlagern.</p>
+<p>Trotzdem kann man auch in einem klassischen Umfeld eine Arbeitsweise verfolgen, die willens und in der Lage ist, auf Veränderungen zu reagieren und nicht erst drei Jahre nach Projektstart (inklusive vier Change Requests) Software abzuliefern, die dann niemand (mehr) benötigt.</p>
+<p>Diese Ausrede gilt nicht mehr <img src="https://s.w.org/images/core/emoji/11/72x72/1f609.png" alt="😉" class="wp-smiley" style="height: 1em; max-height: 1em;" /></p>
+<p>Der Beitrag <a rel="nofollow" href="https://blog.codecentric.de/2018/09/agile-softwareentwicklung-trotz-klassischem-projektmanagements/">Agil trotz klassischen Projektmanagements?</a> erschien zuerst auf <a rel="nofollow" href="https://blog.codecentric.de">codecentric AG Blog</a>.</p>
+<img src="http://feeds.feedburner.com/~r/CodecentricBlog/~4/OS5KEK1Ued8" height="1" width="1" alt=""/>]]></content:encoded>
+      <wfw:commentRss>https://blog.codecentric.de/2018/09/agile-softwareentwicklung-trotz-klassischem-projektmanagements/feed/</wfw:commentRss>
+      <slash:comments>0</slash:comments>
+      <feedburner:origLink>https://blog.codecentric.de/2018/09/agile-softwareentwicklung-trotz-klassischem-projektmanagements/</feedburner:origLink></item>
+    <item>
+      <title>Mule: Streaming mit DataWeave</title>
+      <link>http://feedproxy.google.com/~r/CodecentricBlog/~3/Lte02QnACLw/</link>
+      <comments>https://blog.codecentric.de/2018/09/mule-streaming-dataweave/#respond</comments>
+      <pubDate>Mon, 10 Sep 2018 03:00:37 +0000</pubDate>
+      <dc:creator><![CDATA[Roger Butenuth]]></dc:creator>
+      <category><![CDATA[ESB]]></category>
+      <category><![CDATA[Mule]]></category>
+      <category><![CDATA[DataWeave]]></category>
+      <category><![CDATA[mule]]></category>
+      <category><![CDATA[streaming]]></category>
+
+      <guid isPermaLink="false">https://blog.codecentric.de/?p=53016</guid>
+      <description><![CDATA[<p>Mule legt den Datentyp für die Payload einer Nachricht nicht fest. Genauer als Object will es das Maultier nicht wissen. Häufig sind es PoJos, XML oder JSON. Da die letzten beiden nur strukturierter Text sind, müssen sie irgendwie abgelegt werden. Das geschieht entweder am Stück (String) oder über Streaming (InputStream). Die meisten Mule-Komponenten schlucken beide... <a class="view-article" href="https://blog.codecentric.de/2018/09/mule-streaming-dataweave/">Weiterlesen</a></p>
+<p>Der Beitrag <a rel="nofollow" href="https://blog.codecentric.de/2018/09/mule-streaming-dataweave/">Mule: Streaming mit DataWeave</a> erschien zuerst auf <a rel="nofollow" href="https://blog.codecentric.de">codecentric AG Blog</a>.</p>
+]]></description>
+      <content:encoded><![CDATA[<p>Mule legt den Datentyp für die Payload einer Nachricht nicht fest. Genauer als <code>Object</code> will es das Maultier nicht wissen. Häufig sind es PoJos, XML oder JSON. Da die letzten beiden nur strukturierter Text sind, müssen sie irgendwie abgelegt werden. Das geschieht entweder am Stück (<code>String</code>) oder über Streaming (<code>InputStream</code>). Die meisten Mule-Komponenten schlucken beide Varianten klaglos. Auch die in der Enterprise-Version vorhandene Transformationssprache DataWeave arbeitet serienmäßig mit beiden Varianten. </p>
+<p>Für erfahrene Mule-Entwickler dürfte das alles nicht neu sein. Was jedoch weniger bekannt ist: Streaming funktioniert auch mit PoJos: Richtig konfiguriert kann DataWeave nicht nur eine <code>List</code> von Objekten erzeugen, sondern auch einen <code>Iterator</code>. </p>
+<p>Vorher aber noch etwas einge Details zum Streaming von Texten. Für alte Hasen ist das quasi eine Wiederholung, für viele sind aber sicher noch einige Neuigkeiten dabei.</p>
+<h2>DataWeave Streaming mit XML, JSON und anderen Textformaten</h2>
+<p>Zieht man eine DataWeave-Transformation in den Flow und konfiguriert ein Textformat als Ausgabe (CSV, XML, JSON), so sieht man anschließend in der Payload einen <code>java.io.InputStream</code> (bzw. eine davon abgeleitete Klasse). Es sieht also so aus, als würde DataWeave seine Eingabe liegenlassen und erst mit der Arbeit anfangen, sobald der nächste Message Processor den Stream liest. Das stimmt jedoch nicht: Schaut man genauer hin, sieht man einen <code>ByteArraySeekableStream</code>. DataWeave verarbeitet seine Eingabe komplett und liefert anschließend eine Stream-Sicht auf das Ergebnis. </p>
+<p>Aber halt: Heißt es nicht, dass durch Streaming Payloads größer als der Hauptspeicher möglich sind? Was passiert bei einer großen Eingabe – gibt es dann irgendwann eine <code>OutOfMemoryException</code>, weil das Byte-Array zu groß wird? Nein, Mule verwendet nur dann ein Byte-Array, wenn es nicht zu viele Daten sind. Ab der Größe von 1,5 MByte (genau: 1572864 Bytes) schaltet Mule auf einen <code>RandomAccessFileSeekableStream</code> um, also auf einen Stream, der über den Umweg eines Delegate auf eine Datei zeigt. </p>
+<p>Mule kombiniert hier also die schnelle Lösung &#8222;Hauptspeicher&#8220; mit der langsameren, aber sicheren Lösung &#8222;Dateisystem&#8220;. Wem die Grenze von 1,5 MByte nicht gefällt: Sie lässt sich ändern – über die System Property <code>com.mulesoft.dw.buffersize</code>. Damit gilt sie allerdings für den gesamten Server, nicht für einen einzelnen DataWeave. Alles gut? Nicht ganz: Die abstrakte Klasse <code>InputStream</code> enthält eine <code>close()</code>-Methode. Im Fall der Hauptspeicherlösung spielt sie keine große Rolle, hinter dem Byte-Array steckt nur ein Stück Speicher, um den sich auch ohne Aufruf von <code>close()</code> irgendwann der Garbage Collector kümmert. </p>
+<p>Im Fall des <code>RandomAccessFileSeekableStream</code> ist es jedoch doppelt gefährlich: Wird hier kein <code>close()</code> aufgerufen, bleibt nicht nur das Datei-Handle auf Betriebssystem-Ebene geöffnet, sondern es bleibt auch die Datei auf der Platte liegen. Der Delegate-Mechanismus sorgt nämlich dafür, dass beim Aufruf von <code>close()</code> die Datei nicht nur geschlossen, sondern auch aus dem Dateisystem gelöscht wird. </p>
+<h2>Geschlossen?</h2>
+<p>Es stellt sich die Frage, wie es dazu kommen kann – schließlich ruft doch der nächste Message-Prozessor automatisch <code>close()</code> auf. Schneller als man denkt: Eventuell wird der Stream einige Schritte weitergereicht, bevor er verarbeitet wird. Tritt dann eine Exception auf, haben wir ein Problem. Oder es wird nach dem DataWeave noch eine Entscheidung per Choice-Router getroffen, und in einem der Zweige ist die Payload nicht interessant. </p>
+<p>Es gibt mehrere Varianten, wie man sich hier ins Knie schießen kann. Dummerweise handelt es sich um ein Problem, das meistens erst in der Produktion auffällt: Wer testet schon mit großen Dateien? Und dann noch mit so vielen, dass die Platte vollläuft? Wer schaut nach Tests schon im Temp-Verzeichnis nach? Was hilft also? Nur Wissen um das Problem und Vorsicht: Im Zweifelsfall im Exception-Handler noch den Stream schließen. Generell ist es guter Stil, offene Streams nicht über viele Schritte weiterzureichen.</p>
+<h2>On Demand Streaming</h2>
+<p>Die bisher beschriebene Streaming-Variante funktioniert zwar mit beliebiger Nachrichtengröße bei begrenztem Hauptspeicher, dafür benötigt sie jedoch externen Speicher. Der ist zwar meistens größer, aber auch endlich und kann daher zum Engpass werden. Weiterhin ist sie nicht wirklich parallel: DataWeave verarbeitet die Eingangsdaten komplett, bevor der nächste Message Processor starten kann. </p>
+<p>Wer echte Parallelität möchte, muss im XML <code>mode="deferred"</code> einstellen. DataWeave gibt in diesem Fall eine Instanz zurück, die das Interface <code>OutputHandler</code> implementiert. Es enthält nur eine Methode: <code>void write(MuleEvent event, OutputStream out) throws IOException</code>. </p>
+<p>Was passiert hier? Wenn der DataWeave-Knoten durchlaufen wird, nicht viel: DataWeave liest sein Skript ein, macht ansonsten aber nichts. Erst beim Aufruf von <code>write(...)</code> aus dem <code>OutputHandler</code> läuft der Transformationscode los und schreibt sein Ergebnis in den Ausgabestrom, der ihm sozusagen nachträglich und von hinten zur Verfügung gestellt wird. </p>
+<p>Aber Vorsicht: Nicht alle Komponenten setzen den <code>OutputHandler</code> so ein, wie man es sich wünscht. Wenn man Pech hat, wird die Payload doch noch im Speicher materialisiert. Im Zweifelsfall sollte man sich nicht darauf verlassen, sondern testen. Wichtig ist es dabei, nicht nur mit kleinen Nachrichten zu testen, sondern auch mit großen, die den Hauptspeicher sprengen. Besser im Test als nach dem Livegang&#8230; </p>
+<p>Weitere Details zu dem Thema findet man in der MuleSoft-Dokumentation unter <a href="https://docs.mulesoft.com/mule-user-guide/v/3.9/dataweave-memory-management" rel="noopener noreferrer" target="_blank">DataWeave memory management</a>.</p>
+<h2>DataWeave mit Java</h2>
+<p>Der Schnipsel <code>%output application/java</code> im Header eines DataWeave-Skripts reicht aus, um Java-Objekte zu erzeugen. Ohne Angabe konkreter Java-Klassen (PoJos) erzeugt DataWeave eine generische Struktur aus Listen und Maps. So eine Struktur ist bei kleinen Datenmengen sehr effizient. Bei größeren hat sie jedoch das Potential, den Hauptspeicher zu sprengen. Abhilfe besteht darin, auch Java-Objekte zu streamen. Wie das funktioniert, werde ich in den folgenden Abschnitten zeigen.</p>
+<h2>Beispiel: Geodaten synchronisieren</h2>
+<p>Zuerst benötigen wir aber ein (mehr oder weniger konstruiertes) Beispiel: In JSON vorliegende Geodaten (eine Menge von Punkten) sollen an einen REST-Service gesendet werden. Quelle kann eine Datei oder der HTTP-Listener von einem Post-Request sein. Wichtig ist nur, dass die Quelle einen Stream in der Payload liefert.</p>
+<p>Als Quellformat nutze ich <a href="http://geojson.org/" rel="noopener noreferrer" target="_blank">GeoJSON</a>, das man sich auch leicht auf einer Karte darstellen lassen kann (siehe <a href="http://geojson.io/" rel="noopener noreferrer" target="_blank">geojson.io</a>). Eine Beispieldatei mit zwei Punkten auf der Weltkugel sieht folgendermaßen aus:</p>
+<pre lang="javascript">
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "name": "CC Headquarter"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.00702428817749,
+          51.16197720229481
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "name": "MuleSoft Germany"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.9658,
+          50.9274
+        ]
+      }
+    }
+  ]
+}</pre>
+<p>Längen- und Breitengrad stehen in einem Array (ein optionales drittes Arrayelement steht für die Höhe), weitere Daten können die Darstellung auf der Karte steuern (Art des Markers, Farbe etc.).</p>
+<p>Das Zielformat ist etwas einfacher gestrickt:</p>
+<pre lang="javascript">
+{
+  "points": [
+    {
+      "latitude": 51.16197720229481,
+      "longitude": 7.00702428817749,
+      "name": "CC Headquarter"
+    },
+    {
+      "latitude": 50.9274,
+      "longitude": 6.9658,
+      "name": "MuleSoft Germany"
+    }
+  ]
+}</pre>
+<p>Neben Längen- und Breitengrad wird hier zu jedem Punkt nur der Name gespeichert. Das Skript zur Umwandlung der beiden Formate ist recht einfach:</p>
+<pre>
+%dw 1.0
+%output application/json
+---
+{
+  points: payload.features map ((feature , indexOfFeature) -> {
+    name: feature.properties.name,
+    latitude:  feature.geometry.coordinates[1],
+    longitude: feature.geometry.coordinates[0]
+  })
+}</pre>
+<p>Eigentlich eine typische Situation: Für ein fachliches Problem – Liste von Punkten auf unserer Weltkugel – existieren technisch leicht inkompatible Formate. Wenn wir die Daten aus einer Datei lesen (Streaming möglich) und über HTTP-Post beim Zielservice abliefern können (Streaming möglich), dann haben wir unser Problem auch schon gelöst. </p>
+<h2>Na und? Wo ist das Problem?</h2>
+<p>Wo liegt also das Problem? Wie gesagt, wir konstruieren ein Beispiel: Nehmen wir an, dass die Post-Requests nicht beliebig groß werden dürfen. Oder wir ein Stück Java-Code eine Berechnung auf den Koordinaten ausführen lassen wollen. In beiden Fällen können wir nicht ein großes JSON (mit Streaming) erzeugen. Schalten wir das Ausgabeformat auf Java (durch <code>%output application/java</code> im Header), entsteht ein anderes Problem: DataWeave erzeugt eine Liste (genauer: <code>java.util.ArrayList</code>) von Objekten, die vollständig im Hauptspeicher landet. </p>
+<h2>DataWeave mit Iterator</h2>
+<p>Dabei existiert eine Streaming-Lösung in Java: der gute alte <code>Iterator</code>. Kann Mule das auch? Einfache Antwort: Ja, das geht. Auch wenn es in der Dokumentation anscheinend vergessen wurde. Einfach im DataWeave ein <code>as :iterator</code> anhängen, Beispiel:</p>
+<pre>
+%dw 1.0
+%output application/java
+---
+(payload.features map ((feature , indexOfFeature) -> {
+  name: feature.properties.name,
+  latitude:  feature.geometry.coordinates[1],
+  longitude: feature.geometry.coordinates[0]
+})) as :iterator
+</pre>
+<p>Meist – wie hier – ist es dabei noch notwendig, den Ausdruck vor <code>as :iterator</code> in runde Klammern einzurahmen. </p>
+<p>Mit diesem Code erhalten wir nicht mehr eine Liste, sondern einen <code>java.util.Iterator</code>, der sich als Eingabe in einen &#8222;For Each&#8220; oder &#8222;Batch&#8220; von Mule eignet. </p>
+<p>Wenn wir die so erhaltenen Datensätze einzeln an einen Webservice übergeben, haben wir den Teufel &#8222;Speicherverschwendung&#8220; jedoch mit dem Beelzebub &#8222;viele kleine Aufrufe&#8220; ausgetrieben: Es ist einfach nicht effizient, jeden Datensatz einzeln per HTTP-Post an einen Service zu übergeben.</p>
+<h2>Gruppierung</h2>
+<p>Zwischen &#8222;alle Punkte auf einmal&#8220; und &#8222;jeden Punkt einzeln&#8220; existiert noch die goldene Mitte: &#8222;Gruppe von Punkten&#8220;. Auch das funktioniert einfach: In &#8222;For Each&#8220; das Attribut <code>batchSize</code> setzen. Innerhalb der Schleife verarbeitet der Flow dann nicht mehr einzelne Datensätze, sondern jeweils eine Liste der Größe <code>batchSize</code> (oder kleiner, wenn das Ende der Quelle erreicht ist).</p>
+<p>Ein Flow könnte damit folgende Elemente enthalten:</p>
+<ol>
+<li>Eine Datenquelle (HTTP-listener, File-listener, etc.)</li>
+<li>Ein DataWeave mit einem <code>Iterator</code> als Ergebnis</li>
+<li>Ein &#8222;For Each&#8220; mit <code>batchSize</code> größer 1</li>
+<li>In der Schleife:</li>
+<ul>
+<li>Ein DataWeave, der aus der Liste von Punkten ein JSON-Dokument erzeugt</li>
+<li>Ein Post an den externen REST-Service</li>
+</ul>
+</ol>
+<p>Oder als Bild:</p>
+<p><a href="https://blog.codecentric.de/2018/09/mule-streaming-dataweave/for-each-mit-batch/" rel="attachment wp-att-55576"><img src="https://blog.codecentric.de/files/2018/08/For-Each-mit-Batch.png" alt="For-Each mit Batch" class="aligncenter size-full wp-image-55576" srcset="https://blog.codecentric.de/files/2018/08/For-Each-mit-Batch.png 521w, https://blog.codecentric.de/files/2018/08/For-Each-mit-Batch-250x91.png 250w, https://blog.codecentric.de/files/2018/08/For-Each-mit-Batch-120x44.png 120w" sizes="(max-width: 521px) 100vw, 521px" /></a></p>
+<h2>Zusammenfassung und Ausblick</h2>
+<p>Streaming ist ein mächtiges Werkzeug. Nur damit ist es möglich, Datenmengen jenseits der Hauptspeichergröße verarbeiten zu können. Mule arbeitet an vielen Stellen automatisch mit Streams, so dass man sich als Entwickler nicht darum kümmern muss. Leider nicht an allen Stellen und auch nicht ohne Tücken: Ein vergessenes <code>close()</code> hat unter Umständen fatale Folgen in der Produktion. </p>
+<p>In diesem Blogpost haben wir drei Arten von Streaming mit DataWeave kennengelernt:</p>
+<ol>
+<li>DataWeave Default mit Textformat (z. B. JSON) als Ausgabe. Hier haben wir zwar einen Stream, aber trotzdem eine rein sequentielle Verarbeitung: erst DataWeave komplett, dann der nächste Message Processor. Mule kümmert sich nur darum, dass größere Datenmengen auf der Platte gepuffert werden.</li>
+<li>DataWeave im Modus &#8222;deferred&#8220;: Hier läuft die Transformation erst in dem Moment los, in dem eine Senke zur Verfügung steht. Damit ist auch Parallelität zwischen mehreren Message Processors möglich.</li>
+<li>DataWeave mit einem <code>Iterator</code> als Ausgabe. Auch hier brauchen wir nicht die Platte, und es ist echte Parallelität möglich. Außerdem kann man mit einem <em>for-each</em> hinter dem DataWeave bequem gruppieren.</li>
+</ol>
+<p>Mit Mule 4 hat sich das Streaming übrigens grundsätzlich geändert: Dort kann man zum Beispiel einen Stream auch mehrfach lesen. Aber das ist einen eigenen Blogpost wert. </p>
+<p>Der Beitrag <a rel="nofollow" href="https://blog.codecentric.de/2018/09/mule-streaming-dataweave/">Mule: Streaming mit DataWeave</a> erschien zuerst auf <a rel="nofollow" href="https://blog.codecentric.de">codecentric AG Blog</a>.</p>
+<img src="http://feeds.feedburner.com/~r/CodecentricBlog/~4/Lte02QnACLw" height="1" width="1" alt=""/>]]></content:encoded>
+      <wfw:commentRss>https://blog.codecentric.de/2018/09/mule-streaming-dataweave/feed/</wfw:commentRss>
+      <slash:comments>0</slash:comments>
+      <feedburner:origLink>https://blog.codecentric.de/2018/09/mule-streaming-dataweave/</feedburner:origLink></item>
+  </channel>
+</rss>
